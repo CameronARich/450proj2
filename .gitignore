@@ -19,6 +19,8 @@ build/
 data/*
 dataset/*
 
+.envrc
+
 # macOS system files
 .DS_Store
 .AppleDouble
