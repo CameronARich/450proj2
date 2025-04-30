@@ -1,10 +1,11 @@
+# %%
 import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 import tensorflow as tf
-from tensorflow.keras import layers, models, optimizers
+from tensorflow.keras import layers, models, optimizers, callbacks
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -16,6 +17,7 @@ from collections import Counter
 np.random.seed(42)
 tf.random.set_seed(42)
 
+# %%
 # Constants
 IMG_SIZE = (128, 128)  # Resize images to this size
 BATCH_SIZE = 32
@@ -24,6 +26,7 @@ DATA_DIR = "data"
 METADATA_FILE = "metadata.csv"
 MIN_TYPE_COUNT = 10  # Minimum number of representations for a type to be included
 
+# %%
 def main():
     print("Pokemon Type Classifier using CNN")
     print("Loading and processing data...")
@@ -157,6 +160,7 @@ def main():
     for label_id, count in label_counts.items():
         print(f"{label_encoder.inverse_transform([label_id])[0]}: {count}")
     
+    # %%
     # Visualize the class distribution
     plt.figure(figsize=(12, 6))
     sns.barplot(x=label_encoder.inverse_transform(list(label_counts.keys())), 
@@ -169,6 +173,7 @@ def main():
     plt.savefig('class_distribution.png')
     plt.close()
     
+    # %%
     # Split the dataset into training, validation, and test sets
     # First split into training and temp sets (80% train, 20% temp)
     X_train, X_temp, y_train, y_temp = train_test_split(
@@ -185,9 +190,10 @@ def main():
     print(f"Validation set: {len(X_val)} images")
     print(f"Test set: {len(X_test)} images")
     
+    # %%
     # Data generators with augmentation for training
     train_datagen = ImageDataGenerator(
-        rescale=1./255,
+        # No rescaling here as we'll do it manually
         rotation_range=20,
         width_shift_range=0.2,
         height_shift_range=0.2,
@@ -198,7 +204,9 @@ def main():
     )
     
     # Only rescaling for validation and test sets
-    val_test_datagen = ImageDataGenerator(rescale=1./255)
+    val_test_datagen = ImageDataGenerator(
+        # No rescaling here as we'll do it manually
+    )
     
     # Custom data generator to load images from file paths
     def generate_from_paths_and_labels(image_paths, labels, batch_size, datagen):
@@ -212,20 +220,30 @@ def main():
             batch_images = []
             for img_path in batch_paths:
                 try:
+                    # Load image and convert to RGB
                     img = Image.open(img_path).convert('RGB')
                     img = img.resize(IMG_SIZE)
-                    img_array = np.array(img)
-                    # Apply data augmentation
-                    img_array = datagen.random_transform(img_array)
-                    img_array = datagen.standardize(img_array)
-                    batch_images.append(img_array)
+                    
+                    # Convert to numpy array and normalize to 0-1 range first
+                    img_array = np.array(img, dtype=np.float32) / 255.0
+                    
+                    # Apply augmentation if it's the training datagen
+                    if datagen.preprocessing_function is not None or datagen.rotation_range > 0:
+                        # For training with augmentation, apply the random transforms
+                        # Convert to uint8 temporarily for augmentation operations
+                        img_array_aug = datagen.random_transform(img_array)
+                        batch_images.append(img_array_aug)
+                    else:
+                        # For validation/test, just use the normalized array
+                        batch_images.append(img_array)
+                        
                 except Exception as e:
-                    print(f"Error loading image {img_path}: {e}")
+                    print(f"Error loading image {img_path}: {str(e)}")
                     # Use a blank image as placeholder
-                    batch_images.append(np.zeros((*IMG_SIZE, 3)))
+                    batch_images.append(np.zeros((*IMG_SIZE, 3), dtype=np.float32))
             
             # Convert to numpy arrays
-            batch_images = np.array(batch_images)
+            batch_images = np.array(batch_images, dtype=np.float32)
             batch_labels_onehot = tf.keras.utils.to_categorical(batch_labels, num_classes)
             
             yield batch_images, batch_labels_onehot
@@ -243,6 +261,7 @@ def main():
         X_test, np.array(y_test), BATCH_SIZE, val_test_datagen
     )
     
+    # %%
     # Build the CNN model
     model = build_model(num_classes)
     
@@ -260,6 +279,7 @@ def main():
         # Slight weight adjustment - softer than before
         class_weights[label_id] = 1.0
     
+    # %%
     # Train the model
     print("\nTraining the model...")
     
@@ -271,15 +291,33 @@ def main():
     steps_per_epoch = max(1, steps_per_epoch)
     validation_steps = max(1, validation_steps)
     
+    # Early stopping callback
+    early_stopping = callbacks.EarlyStopping(
+        monitor='val_loss',
+        patience=5,
+        min_delta=0.01,
+        restore_best_weights=True,
+        verbose=1
+    )
+    
+    # Model checkpoint callback to save the best model
+    model_checkpoint = callbacks.ModelCheckpoint(
+        'best_model.h5',
+        monitor='val_loss',
+        save_best_only=True,
+        verbose=1
+    )
+    
     history = model.fit(
         train_generator,
         steps_per_epoch=steps_per_epoch,
         epochs=EPOCHS,
         validation_data=val_generator,
         validation_steps=validation_steps,
-        class_weight=class_weights
+        callbacks=[early_stopping, model_checkpoint]
     )
     
+    # %%
     # Evaluate the model
     print("\nEvaluating the model...")
     test_steps = max(1, len(X_test) // BATCH_SIZE)
@@ -307,7 +345,7 @@ def main():
     # Display some predictions on test images
     display_predictions(model, X_test, y_test, label_encoder)
 
-
+# %%
 def build_model(num_classes):
     """Build a CNN model for Pokemon type classification"""
     model = models.Sequential()
@@ -339,7 +377,7 @@ def build_model(num_classes):
     
     return model
 
-
+# %%
 def plot_training_history(history):
     """Plot training and validation accuracy/loss"""
     plt.figure(figsize=(12, 4))
@@ -366,7 +404,7 @@ def plot_training_history(history):
     plt.savefig('training_history.png')
     plt.close()
 
-
+# %%
 def get_predictions(model, X_test, datagen):
     """Get predictions for all test images"""
     y_pred = []
@@ -381,21 +419,20 @@ def get_predictions(model, X_test, datagen):
             try:
                 img = Image.open(img_path).convert('RGB')
                 img = img.resize(IMG_SIZE)
-                img_array = np.array(img)
-                img_array = img_array / 255.0  # Manual rescaling
+                img_array = np.array(img, dtype=np.float32) / 255.0
                 batch_images.append(img_array)
             except Exception as e:
-                print(f"Error loading image {img_path}: {e}")
-                batch_images.append(np.zeros((*IMG_SIZE, 3)))
+                print(f"Error loading image {img_path}: {str(e)}")
+                batch_images.append(np.zeros((*IMG_SIZE, 3), dtype=np.float32))
         
-        batch_images = np.array(batch_images)
+        batch_images = np.array(batch_images, dtype=np.float32)
         batch_preds = model.predict(batch_images)
         batch_preds = np.argmax(batch_preds, axis=1)
         y_pred.extend(batch_preds)
     
     return np.array(y_pred)
 
-
+# %%
 def generate_metrics(y_test, y_pred, label_encoder):
     """Generate and save detailed metrics and confusion matrix"""
     # Generate classification report
@@ -455,7 +492,7 @@ def generate_metrics(y_test, y_pred, label_encoder):
     plt.savefig('per_class_metrics.png')
     plt.close()
 
-
+# %%
 def display_predictions(model, X_test, y_test, label_encoder):
     """Display predictions for a few test images"""
     # Select a few random test images
@@ -467,30 +504,33 @@ def display_predictions(model, X_test, y_test, label_encoder):
         img_path = X_test[idx]
         true_label = y_test[idx]
         
-        # Load and preprocess the image
-        img = Image.open(img_path).convert('RGB')
-        img = img.resize(IMG_SIZE)
-        img_array = np.array(img) / 255.0
-        img_batch = np.expand_dims(img_array, axis=0)
-        
-        # Make prediction
-        prediction = model.predict(img_batch)[0]
-        predicted_label = np.argmax(prediction)
-        
-        # Get label names
-        true_label_name = label_encoder.inverse_transform([true_label])[0]
-        pred_label_name = label_encoder.inverse_transform([predicted_label])[0]
-        
-        # Display the image with prediction
-        plt.subplot(2, 5, i + 1)
-        plt.imshow(img_array)
-        plt.title(f"True: {true_label_name}\nPred: {pred_label_name}")
-        plt.axis('off')
+        try:
+            # Load and preprocess the image
+            img = Image.open(img_path).convert('RGB')
+            img = img.resize(IMG_SIZE)
+            img_array = np.array(img, dtype=np.float32) / 255.0
+            img_batch = np.expand_dims(img_array, axis=0)
+            
+            # Make prediction
+            prediction = model.predict(img_batch)[0]
+            predicted_label = np.argmax(prediction)
+            
+            # Get label names
+            true_label_name = label_encoder.inverse_transform([true_label])[0]
+            pred_label_name = label_encoder.inverse_transform([predicted_label])[0]
+            
+            # Display the image with prediction
+            plt.subplot(2, 5, i + 1)
+            plt.imshow(img_array)
+            plt.title(f"True: {true_label_name}\nPred: {pred_label_name}")
+            plt.axis('off')
+        except Exception as e:
+            print(f"Error displaying prediction for {img_path}: {str(e)}")
     
     plt.tight_layout()
     plt.savefig('test_predictions.png')
     plt.close()
 
-
+# %%
 if __name__ == "__main__":
     main() 
