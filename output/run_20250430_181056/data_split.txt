@@ -1,3 +1,0 @@
-train: 5600 examples
-val: 700 examples
-test: 700 examples

@@ -1,0 +1,1201 @@
+example_id,image_path,true_types,exact_match,pred1,prob1,pred2,prob2,pred3,prob3
+0,data/Electrode/00000176.jpg,electric,False,grass,0.19500412,flying,0.18128264,psychic,0.18084283
+1,data/Clefairy/7580662a6ec64e8698c3a2e71554a064.jpg,normal,True,normal,0.9804932,psychic,0.09978525,grass,0.029408287
+2,data/Magneton/00000003.png,electric,False,electric,0.4331511,water,0.31094557,ground,0.08213053
+3,data/Wartortle/00000214.jpg,water,False,water,0.31686285,ground,0.29998824,electric,0.10260349
+4,data/Caterpie/3cdb06a0930a42ff8831b04dc9e565df.jpg,bug,True,bug,0.92053854,poison,0.23429126,grass,0.18499449
+5,data/Mewtwo/00000032.jpg,psychic,False,poison,0.5573755,normal,0.16873877,flying,0.15220685
+6,data/Caterpie/00000174.jpg,bug,True,bug,0.97911114,flying,0.19857158,psychic,0.047573943
+7,data/Charmeleon/6470de72396846eba9c547d0ba23caf6.jpg,fire,True,fire,0.9388451,flying,0.048769724,water,0.03865953
+8,data/Jynx/278bb84c2de2443fa69ebd8991dfdb48.jpg,psychic,True,psychic,0.84331536,normal,0.30514514,flying,0.17294185
+9,data/Ekans/00000228.gif,poison,False,psychic,0.62874794,water,0.17819707,normal,0.1486215
+10,data/Omastar/00000108.png,water,True,water,0.9769204,flying,0.1473946,normal,0.024703935
+11,data/Rattata/d42a998de7bb485a988815a08916d5b0.jpg,normal,False,normal,0.29076013,poison,0.24095784,psychic,0.11484596
+12,data/Dragonite/00000060.png,flying,True,flying,0.53102833,electric,0.45762134,poison,0.19792148
+13,data/Rhydon/00000178.png,ground,True,ground,0.9057308,water,0.056844253,psychic,0.03974607
+14,data/Rhyhorn/fa4a38839e46424b8c420afa7b51265c.jpg,ground,False,ground,0.4983213,electric,0.18490197,water,0.12684374
+15,data/Spearow/00000187.png,"flying, normal",False,water,0.4568997,flying,0.3633553,normal,0.28057367
+16,data/Exeggcute/1a1b8682fdbe40c48a5d49bb52666896.jpg,"grass, psychic",False,normal,0.777416,psychic,0.6050076,water,0.24829485
+17,data/Farfetchd/00000021.gif,"flying, normal",False,fire,0.5028285,flying,0.26135573,ground,0.13418013
+18,data/Porygon/00000052.jpg,normal,True,normal,0.8858043,psychic,0.32370275,water,0.12880309
+19,data/Growlithe/fd4f8ee0b049448bbbaf29d26f864451.jpg,fire,True,fire,0.6242123,normal,0.3242043,flying,0.27142006
+20,data/Weezing/00000028.gif,poison,True,poison,0.5556981,normal,0.3451362,ground,0.11976834
+21,data/Raticate/00000018.gif,normal,False,normal,0.71026033,flying,0.5128145,electric,0.09167627
+22,data/Psyduck/00000213.gif,water,False,normal,0.33285132,flying,0.22324534,ground,0.16357371
+23,data/Omanyte/00000056.png,water,True,water,0.68075114,bug,0.20515707,flying,0.16312474
+24,data/Dewgong/00000139.png,water,False,water,0.37330806,electric,0.2649546,flying,0.11231551
+25,data/Jynx/00000211.jpg,psychic,False,psychic,0.96656275,water,0.6300898,normal,0.030446135
+26,data/Ivysaur/00000023.png,"grass, poison",True,grass,0.98187816,poison,0.96836907,normal,0.04494735
+27,data/Articuno/00000166.jpg,flying,False,water,0.6165133,flying,0.3883947,poison,0.035476644
+28,data/Ponyta/b3bc58eec6e140b4ac43c0ed0a2d8216.jpg,fire,True,fire,0.5620038,psychic,0.26607856,flying,0.24448524
+29,data/Hypno/00000011.png,psychic,True,psychic,0.7201469,electric,0.14387228,ground,0.09582575
+30,data/Kangaskhan/ef5a036d5bbd4f038edfea67b1af65ea.jpg,normal,False,normal,0.30739465,ground,0.28255844,bug,0.15978044
+31,data/Pidgeot/a6f2c2d72e6f42b6b6d1f374ad7b641d.jpg,"flying, normal",True,normal,0.8136842,flying,0.70793617,fire,0.19652037
+32,data/Pikachu/00000069.png,electric,False,psychic,0.40642828,electric,0.16307731,flying,0.107806794
+33,data/Spearow/00000104.jpg,"flying, normal",True,normal,0.75941277,flying,0.60737896,fire,0.16504511
+34,data/Gyarados/00000067.png,"flying, water",True,water,0.92096233,flying,0.57642806,bug,0.16205521
+35,data/Voltorb/f8c18daa2df04b11baae3e37b85436dd.jpg,electric,True,electric,0.94233435,water,0.034318548,flying,0.013560147
+36,data/Farfetchd/ede092f30de34db0b11a10b66b9e5fcc.jpg,"flying, normal",False,psychic,0.34885883,normal,0.2770153,ground,0.14721857
+37,data/Vaporeon/00000044.png,water,True,water,0.7421996,flying,0.30934966,bug,0.09448152
+38,data/Ninetales/0f229b8599744c68b7022851d34ecc36.jpg,fire,False,normal,0.40583503,flying,0.38044637,fire,0.24863906
+39,data/Kangaskhan/2e3d0506300d46fd81b4ac399926df01.jpg,normal,False,ground,0.45405713,water,0.16786276,normal,0.10370708
+40,data/MrMime/00000037.png,psychic,False,psychic,0.73569244,water,0.5654053,normal,0.16946974
+41,data/Pidgey/00000054.jpg,"flying, normal",True,flying,0.7440799,normal,0.655546,fire,0.27180675
+42,data/Weedle/00000122.jpg,"bug, poison",False,flying,0.28139156,poison,0.26977813,bug,0.23182894
+43,data/Omanyte/65d2d61430564149942f00681c59f787.jpg,water,True,water,0.78568554,fire,0.25733995,normal,0.13367301
+44,data/Ditto/00000011.jpg,normal,False,psychic,0.43432376,poison,0.25067353,normal,0.24328801
+45,data/Arcanine/00000133.gif,fire,True,fire,0.74148595,flying,0.22832389,normal,0.18499197
+46,data/Graveler/00000012.gif,ground,False,ground,0.39377004,water,0.08219794,bug,0.07402217
+47,data/Slowpoke/00000009.png,"psychic, water",False,normal,0.6859231,psychic,0.30117992,water,0.19103558
+48,data/Chansey/93540f09d0d84995a38c2157ef51ca02.jpg,normal,True,normal,0.9448347,psychic,0.09111515,grass,0.059263516
+49,data/Farfetchd/cf4353a72ba04af796477f63f34fb54b.jpg,"flying, normal",False,flying,0.45085818,normal,0.37484196,ground,0.17168476
+50,data/Kakuna/864c81f3ef88461987af64b9fe597b80.jpg,"bug, poison",False,poison,0.6251117,bug,0.30304402,psychic,0.16039589
+51,data/Grimer/442aed542d924e019aa07b5a7609aed2.jpg,poison,True,poison,0.5139566,normal,0.32353714,ground,0.14879943
+52,data/Pidgeotto/00000067.png,"flying, normal",True,normal,0.82472926,flying,0.6678123,psychic,0.09606365
+53,data/Dragonite/af258d1cc54245b08cc19234cefa5b50.jpg,flying,False,fire,0.42673138,flying,0.36003354,electric,0.10006169
+54,data/Pikachu/00000181.jpg,electric,True,electric,0.5632043,flying,0.21495016,psychic,0.16198471
+55,data/Magneton/abb5c83545da49bea6bac11abf2c6bc0.jpg,electric,True,electric,0.60920924,flying,0.13631791,water,0.06732973
+56,data/Magnemite/00000027.jpg,electric,False,ground,0.77894014,bug,0.22417891,normal,0.049583964
+57,data/Marowak/00000038.jpg,ground,False,electric,0.24069963,bug,0.17591251,water,0.16178784
+58,data/Rattata/00000180.png,normal,False,normal,0.44369882,poison,0.2431593,water,0.15546148
+59,data/Geodude/00000003.gif,ground,False,ground,0.41570306,normal,0.15958382,flying,0.11021313
+60,data/Exeggcute/00000009.jpg,"grass, psychic",False,psychic,0.7914427,grass,0.24804886,normal,0.23608536
+61,data/Sandshrew/0944c2ba6a7a4bd99e02f2e289c25c2a.jpg,ground,True,ground,0.58925456,psychic,0.11896771,electric,0.089856274
+62,data/Voltorb/00000218.png,electric,True,electric,0.99208707,fire,0.014642953,bug,0.014519455
+63,data/Kangaskhan/00000069.jpg,normal,True,normal,0.55681765,ground,0.28470013,flying,0.15695122
+64,data/Arcanine/c2f42fbdf3b94ea38397ef51d1fa1ab7.jpg,fire,False,normal,0.4758609,flying,0.4434402,fire,0.38125303
+65,data/Mew/da29c3832bc34e83bd66e173820dd060.jpg,psychic,False,psychic,0.38389018,normal,0.33555597,bug,0.2684055
+66,data/Clefable/00000004.png,normal,True,normal,0.9535443,psychic,0.1064355,grass,0.08863856
+67,data/Voltorb/0d4202ba4b5148ebb48934b569219ef4.jpg,electric,False,poison,0.6035094,grass,0.3008606,bug,0.09196457
+68,data/Snorlax/00000017.png,normal,True,normal,0.595701,water,0.24603866,ground,0.071404204
+69,data/Magmar/fb4567e4adc447ebae5c77a0c08bcd75.jpg,fire,True,fire,0.81710184,flying,0.26556322,bug,0.12422249
+70,data/Flareon/23f57c80ee784b63b23e4cea6cd6f454.jpg,fire,True,fire,0.9720267,flying,0.18771142,water,0.02441744
+71,data/Omanyte/00000035.jpg,water,False,water,0.26638013,normal,0.19496208,grass,0.11325652
+72,data/Dragonite/00000104.gif,flying,True,flying,0.72291976,normal,0.4397963,fire,0.17515455
+73,data/Charmander/00000041.jpg,fire,True,fire,0.9443403,flying,0.108425446,water,0.047108375
+74,data/Exeggcute/0a5b8bf386eb4605aa02e42e436ba775.jpg,"grass, psychic",True,psychic,0.87816316,grass,0.7370709,normal,0.21269892
+75,data/Chansey/00000147.jpg,normal,False,psychic,0.2960696,ground,0.16221136,poison,0.13685678
+76,data/Clefable/00000104.jpg,normal,True,normal,0.9331223,grass,0.06689183,psychic,0.036524
+77,data/Snorlax/00000021.jpg,normal,True,normal,0.7554244,water,0.33178172,flying,0.08163518
+78,data/Metapod/837bde20cf0948f9a34c59f81bbfda41.jpg,bug,True,bug,0.9958302,flying,0.15404777,poison,0.022935417
+79,data/Growlithe/de44a032452d49cebe5bffdfa1af8c90.jpg,fire,False,normal,0.44650105,fire,0.41405734,flying,0.37180883
+80,data/Charmeleon/7598a8d6d0bc4ba88c21a3e48d77e69d.jpg,fire,True,fire,0.88226235,water,0.19918935,flying,0.074985914
+81,data/Blastoise/00000071.png,water,False,normal,0.759144,flying,0.4205829,water,0.32137248
+82,data/Exeggutor/d889e171949d49159abb1b40dbd38a58.jpg,"grass, psychic",True,psychic,0.83481985,grass,0.64699745,flying,0.27635998
+83,data/Sandslash/f056571b60184bfe9b85d7aa90bf9045.jpg,ground,True,ground,0.58169186,psychic,0.18157314,normal,0.11153079
+84,data/Rapidash/00000091.jpg,fire,False,flying,0.50634456,normal,0.49306437,fire,0.4663057
+85,data/Poliwrath/00000012.jpg,water,False,ground,0.5073978,water,0.30411226,electric,0.18354256
+86,data/Articuno/48ad51dc7bc64f76ac0156041bbc5449.jpg,flying,False,water,0.81027716,flying,0.40367246,poison,0.045849215
+87,data/Ditto/de6ea1fb39f543ac9866cb2535ae1c4a.jpg,normal,True,normal,0.5266575,psychic,0.34374702,poison,0.25982252
+88,data/Golduck/00000164.png,water,False,psychic,0.7416994,electric,0.10197884,bug,0.090282336
+89,data/Pikachu/00000046.jpg,electric,True,electric,0.64221764,flying,0.24756083,psychic,0.2023494
+90,data/Kangaskhan/f785a84236984b1a9be32b1180de30a4.jpg,normal,False,ground,0.77276796,normal,0.33379763,flying,0.16136895
+91,data/Porygon/635b3d7b627c4c6aa6ec2f84ccaf9827.jpg,normal,False,normal,0.19761768,psychic,0.19261141,poison,0.14441231
+92,data/Gastly/49a9451107ea4370a1d94094891b7ca4.jpg,poison,True,poison,0.7726845,water,0.29874286,flying,0.1182813
+93,data/Charizard/178ad1532d3a457b91be331cad3cd1fc.jpg,"fire, flying",False,fire,0.6129656,flying,0.41064835,normal,0.23917532
+94,data/Tangela/1c8592c419ac4d2c8b7af4151d3fbdec.jpg,grass,False,grass,0.25228938,water,0.19789499,ground,0.11418665
+95,data/Seadra/49c639d222944d6ab42ff9065b832893.jpg,water,False,grass,0.62874675,water,0.3806926,poison,0.10320644
+96,data/Vileplume/00000015.jpg,"grass, poison",True,grass,0.96381813,poison,0.93090266,normal,0.08473801
+97,data/Diglett/00000063.jpg,ground,True,ground,0.58887523,bug,0.46309182,grass,0.33723232
+98,data/Farfetchd/5a3fe1c1b19146ce8eeaaa5db74fb27e.jpg,"flying, normal",False,flying,0.34124166,normal,0.25296924,bug,0.18446304
+99,data/Pikachu/00000003.jpg,electric,True,electric,0.69148624,flying,0.12442623,psychic,0.049186118
+100,data/Pinsir/00000085.png,bug,False,flying,0.6182278,normal,0.58092487,bug,0.14187573
+101,data/Marowak/7d1d4aa27853465592be13d98e110160.jpg,ground,True,ground,0.83218896,normal,0.09934691,flying,0.04825122
+102,data/Shellder/cbd6f3b8a65a4e5fbde6f4144a7bc887.jpg,water,False,poison,0.51598597,water,0.16999327,ground,0.09396503
+103,data/Charmeleon/55f8ded725a04689a4225e9603f479a3.jpg,fire,True,fire,0.80160993,flying,0.19762915,water,0.09859475
+104,data/Kadabra/00000005.png,psychic,False,electric,0.5192249,flying,0.15773128,psychic,0.13054113
+105,data/Scyther/00000073.png,"bug, flying",True,bug,0.7612639,flying,0.5979291,psychic,0.25609407
+106,data/Marowak/0e1dfaed38cc4dd893607ba54dbd2771.jpg,ground,False,water,0.35218665,flying,0.29695258,normal,0.0651616
+107,data/Kadabra/f23d67da38ec46e7aaadc3aacedec8fa.jpg,psychic,True,psychic,0.58446246,ground,0.3976258,bug,0.1268481
+108,data/Venusaur/00000008.jpg,"grass, poison",True,grass,0.9975422,poison,0.99611443,normal,0.009889621
+109,data/Vulpix/df75d13fc6d34122958ed9563e842cf6.jpg,fire,True,fire,0.7112429,normal,0.19426994,flying,0.14684668
+110,data/Venusaur/00000066.jpg,"grass, poison",True,grass,0.9789565,poison,0.9342449,fire,0.055513855
+111,data/Eevee/7b51aaa542224fccb03b7909af53d54d.jpg,normal,False,normal,0.40706927,ground,0.3602434,flying,0.3369511
+112,data/Charmander/00000052.png,fire,True,fire,0.93022376,flying,0.14722057,normal,0.026062848
+113,data/Bulbasaur/00000214.jpg,"grass, poison",True,grass,0.7771141,poison,0.70447,bug,0.11847504
+114,data/Voltorb/00000103.png,electric,True,electric,0.8833197,grass,0.33587223,poison,0.25437883
+115,data/Articuno/00000100.jpg,flying,True,flying,0.6594764,water,0.45189703,poison,0.08525484
+116,data/Ponyta/00000173.jpg,fire,True,fire,0.7864967,water,0.23771758,flying,0.18095632
+117,data/Parasect/153631e596fb4483b42ef9185d6c9431.jpg,"bug, grass",False,grass,0.83425385,bug,0.2712574,poison,0.24061763
+118,data/Omastar/fd204513a99a4208a7035e95d2774c5c.jpg,water,True,water,0.56964314,normal,0.20620513,flying,0.14863767
+119,data/Spearow/00000042.png,"flying, normal",False,normal,0.68979377,flying,0.23111364,psychic,0.11235644
+120,data/Chansey/00000084.jpg,normal,False,ground,0.64313763,psychic,0.107440025,normal,0.083745025
+121,data/Shellder/8d46355b47084326b59302bd26578726.jpg,water,False,water,0.41861913,psychic,0.25413823,poison,0.121964544
+122,data/Venonat/00000063.png,"bug, poison",False,flying,0.873877,bug,0.8320224,poison,0.51157016
+123,data/Jynx/00000010.jpg,psychic,True,psychic,0.91945356,water,0.30756235,poison,0.11063383
+124,data/Tangela/00000017.png,grass,False,flying,0.7657003,poison,0.55965185,grass,0.4894831
+125,data/Charmander/00000008.png,fire,True,fire,0.90950215,flying,0.15130366,water,0.03435617
+126,data/Voltorb/00000172.jpg,electric,True,electric,0.68523216,grass,0.257674,bug,0.13538508
+127,data/Squirtle/00000023.jpg,water,True,water,0.78673255,poison,0.15785621,bug,0.14180358
+128,data/Rhyhorn/00000209.jpg,ground,False,ground,0.4858002,grass,0.1488411,water,0.10738518
+129,data/Parasect/50800bc3a1b5446da887468d15e8509b.jpg,"bug, grass",False,poison,0.5094381,bug,0.4769588,grass,0.39252785
+130,data/Farfetchd/00000158.jpg,"flying, normal",False,flying,0.6007952,normal,0.32633182,water,0.29497233
+131,data/Metapod/77648066119846bc8d9a9aab4c86a2ac.jpg,bug,True,bug,0.97838235,flying,0.24980529,poison,0.045025267
+132,data/Blastoise/eb6d2a237b1e460a87baddc0c4830ac2.jpg,water,True,water,0.93603057,flying,0.12192248,normal,0.02964536
+133,data/Wartortle/00000026.jpg,water,True,water,0.5978827,flying,0.27644026,poison,0.06319037
+134,data/Charizard/16ec9494900e4fb4bccb4a9ae8408aa8.jpg,"fire, flying",True,fire,0.8639751,flying,0.75438863,normal,0.0709687
+135,data/MrMime/00000112.png,psychic,False,poison,0.8812504,grass,0.86563087,bug,0.11056294
+136,data/Exeggcute/00000063.png,"grass, psychic",False,psychic,0.3282519,flying,0.24410382,water,0.21660288
+137,data/Shellder/00000224.jpg,water,False,poison,0.38090244,grass,0.35448468,normal,0.2881583
+138,data/Squirtle/00000099.png,water,True,water,0.9550437,flying,0.07031189,normal,0.02619802
+139,data/Psyduck/00000029.png,water,False,ground,0.40653342,water,0.20143977,electric,0.13533042
+140,data/Oddish/00000147.png,"grass, poison",True,poison,0.960476,grass,0.54030377,flying,0.1416623
+141,data/Drowzee/00000154.png,psychic,True,psychic,0.6862494,poison,0.25636545,bug,0.11846553
+142,data/Jigglypuff/00000180.jpg,normal,True,normal,0.69681364,psychic,0.39597306,flying,0.1911706
+143,data/Eevee/00000044.png,normal,True,normal,0.8353044,flying,0.47575217,fire,0.10177996
+144,data/Growlithe/91299dae1c7d406eaeb63f175439aaee.jpg,fire,True,fire,0.5026244,normal,0.16382048,flying,0.15781277
+145,data/Farfetchd/4428f52e6603460f826f391073ca9c41.jpg,"flying, normal",False,normal,0.41972807,ground,0.19712369,bug,0.16555235
+146,data/Pikachu/00000065.jpg,electric,True,electric,0.54307246,bug,0.084057845,psychic,0.08400639
+147,data/Ponyta/00000152.png,fire,True,fire,0.893215,normal,0.11300277,flying,0.1129124
+148,data/Porygon/00000200.jpg,normal,False,poison,0.65798974,grass,0.5440473,flying,0.37536794
+149,data/Growlithe/7e31abf1144547ce95ec470f02530b2e.jpg,fire,False,normal,0.4225974,fire,0.41428733,flying,0.23158258
+150,data/Arcanine/00000057.png,fire,False,normal,0.32090572,fire,0.20642781,ground,0.20135666
+151,data/Sandslash/92c0aff0ad1d4bfbbe3ec3e3274e7823.jpg,ground,False,normal,0.47651234,flying,0.19408163,fire,0.15498407
+152,data/Kadabra/00000013.png,psychic,False,fire,0.4937751,bug,0.2663033,flying,0.24112317
+153,data/Jolteon/00000001.png,electric,False,psychic,0.46902916,electric,0.36197567,flying,0.08356433
+154,data/Electabuzz/00000025.png,electric,True,electric,0.8635171,psychic,0.27163163,flying,0.112751156
+155,data/Oddish/00000143.jpg,"grass, poison",True,grass,0.9956621,poison,0.97621834,flying,0.068614885
+156,data/Golbat/d7beb9a6a43b456aa548dd119c60c364.jpg,"flying, poison",True,flying,0.94511145,poison,0.8677205,ground,0.027563041
+157,data/Rhyhorn/00000002.gif,ground,True,ground,0.62104785,psychic,0.11955145,water,0.100985214
+158,data/Chansey/5089f2a237f24ba2acf85eb6b98f8ee9.jpg,normal,True,normal,0.9302862,psychic,0.1834143,water,0.04130164
+159,data/Farfetchd/00000024.jpg,"flying, normal",False,psychic,0.32825696,bug,0.3119701,ground,0.16896066
+160,data/Charmander/00000183.png,fire,False,flying,0.43103582,water,0.29338068,normal,0.22254671
+161,data/Flareon/40d5c9b51fa44d9a81cc8999eba4a727.jpg,fire,True,fire,0.97928536,flying,0.076005846,water,0.052378878
+162,data/Geodude/00000057.png,ground,False,water,0.47233903,flying,0.20866376,psychic,0.12620467
+163,data/Slowbro/00000002.png,"psychic, water",True,psychic,0.6313944,water,0.6034561,normal,0.26657853
+164,data/Weedle/00000061.png,"bug, poison",False,bug,0.43820497,psychic,0.3975836,poison,0.17355435
+165,data/Articuno/b3b718ae79f0421481b191ec694fc4f4.jpg,flying,False,flying,0.66465527,water,0.5093154,poison,0.055493843
+166,data/Gloom/00000045.png,"grass, poison",True,grass,0.98009825,poison,0.8991333,flying,0.17198165
+167,data/Magnemite/00000000.png,electric,False,electric,0.42912027,water,0.409506,flying,0.105658196
+168,data/Arbok/f08fcce291cd40ccb68d12cce2addeed.jpg,poison,True,poison,0.8684119,water,0.117039405,ground,0.051643528
+169,data/Venonat/00000075.jpg,"bug, poison",False,psychic,0.40071908,poison,0.2934113,flying,0.15746681
+170,data/Eevee/00000059.png,normal,True,normal,0.8353044,flying,0.47575217,fire,0.10177996
+171,data/Psyduck/00000072.gif,water,False,flying,0.3531467,normal,0.3298219,water,0.31866863
+172,data/Pinsir/00000229.jpg,bug,False,ground,0.801383,bug,0.1361087,normal,0.095485814
+173,data/Blastoise/ce1cca1d0b554a9a8f3a8a8ebf685b89.jpg,water,True,water,0.5194908,flying,0.20534533,ground,0.20103793
+174,data/Ekans/00000047.jpg,poison,False,poison,0.495296,psychic,0.4842996,water,0.18022536
+175,data/Exeggutor/00000058.png,"grass, psychic",False,grass,0.74642336,poison,0.44048765,psychic,0.4384938
+176,data/Abra/aabb27dd7e1c4508880bd8cc1141c340.jpg,psychic,True,psychic,0.88566494,electric,0.07888638,ground,0.027242191
+177,data/Gengar/00000195.png,poison,True,poison,0.8775838,flying,0.1657172,bug,0.06794659
+178,data/Drowzee/00000147.gif,psychic,True,psychic,0.56549346,electric,0.3512491,flying,0.09657263
+179,data/Wigglytuff/00000122.jpg,normal,True,normal,0.8060453,poison,0.1884696,flying,0.09028732
+180,data/Pikachu/00000004.jpg,electric,True,electric,0.5752463,psychic,0.14680222,flying,0.076674104
+181,data/Horsea/3e65b608b2f343f9ad7ce517eb0133b1.jpg,water,True,water,0.60691696,flying,0.28989112,poison,0.089614496
+182,data/Jolteon/00000190.png,electric,True,electric,0.83285373,flying,0.1820658,ground,0.091476396
+183,data/Voltorb/00000019.jpg,electric,True,electric,0.75998944,water,0.14141282,normal,0.06961654
+184,data/Charmander/00000058.png,fire,True,fire,0.9329098,flying,0.21035017,electric,0.020954236
+185,data/Electabuzz/00000010.png,electric,True,electric,0.86492246,flying,0.38603526,fire,0.2712386
+186,data/Jolteon/00000148.png,electric,False,electric,0.44587347,flying,0.38385454,psychic,0.23371199
+187,data/Kakuna/00000070.png,"bug, poison",False,psychic,0.7175219,bug,0.23958354,poison,0.19878638
+188,data/Haunter/00000187.gif,poison,False,poison,0.29954594,water,0.2458173,psychic,0.18539219
+189,data/Nidorino/e39ec4fc69cb4cbba1f5df2341b11037.jpg,poison,True,poison,0.82652915,flying,0.24114549,bug,0.21787713
+190,data/Starmie/00000177.jpg,"psychic, water",False,flying,0.58483464,bug,0.32059076,water,0.3017325
+191,data/Exeggutor/00000119.png,"grass, psychic",True,psychic,0.9377762,grass,0.9142928,bug,0.12665567
+192,data/Poliwhirl/00000110.png,water,True,water,0.98098594,flying,0.15265031,bug,0.049912393
+193,data/Pidgey/00000018.png,"flying, normal",False,normal,0.5152205,flying,0.45011073,electric,0.12234596
+194,data/Arcanine/4feb43ec07af47a6847ced9fe12b52b7.jpg,fire,True,fire,0.8071491,normal,0.2730865,flying,0.1053946
+195,data/Goldeen/f77c142f2b1a4a3cb72d50feffd28886.jpg,water,False,normal,0.61461014,water,0.50531626,psychic,0.19893438
+196,data/Raichu/09e4765426ea4f6997d53d28a7a89e04.jpg,electric,False,electric,0.33918217,flying,0.17235406,normal,0.12109015
+197,data/Parasect/00000054.png,"bug, grass",False,flying,0.34844452,normal,0.31772888,bug,0.26004913
+198,data/Jigglypuff/00000077.png,normal,True,normal,0.51037335,psychic,0.19559455,poison,0.08358968
+199,data/Pinsir/ddd60723444044c9b392140d78035d6a.jpg,bug,False,ground,0.22347486,psychic,0.21300751,normal,0.10514063
+200,data/Ninetales/00000001.png,fire,True,fire,0.51759297,normal,0.4357184,flying,0.23512702
+201,data/Magmar/0f935d4f4216447da93bae5d20c060e3.jpg,fire,True,fire,0.5257168,flying,0.26621377,poison,0.22264944
+202,data/Farfetchd/e0f46855bda14daaa97e74a3ed2bf9e9.jpg,"flying, normal",False,normal,0.47092023,ground,0.43054083,flying,0.091745235
+203,data/Butterfree/00000074.jpg,"bug, flying",True,flying,0.9343548,bug,0.71451247,water,0.28129634
+204,data/Starmie/00000218.jpg,"psychic, water",False,water,0.61355376,flying,0.34784412,poison,0.08085749
+205,data/Gastly/c5db1f9d765a4d699a5d24bc98a7389d.jpg,poison,True,poison,0.50780797,water,0.20629288,flying,0.09859007
+206,data/Jigglypuff/f663a8c63e394c719a8c8c8d5ee90ac7.jpg,normal,True,normal,0.98222786,psychic,0.0941909,grass,0.024020052
+207,data/Zubat/00000017.gif,"flying, poison",True,flying,0.9602929,poison,0.78459877,water,0.056323443
+208,data/Oddish/00000026.jpg,"grass, poison",True,grass,0.8731701,poison,0.8372586,water,0.13980243
+209,data/Mewtwo/00000008.png,psychic,False,psychic,0.3859718,flying,0.29233816,poison,0.22884196
+210,data/Marowak/00000119.png,ground,False,poison,0.52265185,water,0.120494634,ground,0.107612185
+211,data/Gastly/00000135.jpg,poison,False,water,0.45992163,poison,0.28741768,psychic,0.28649205
+212,data/Nidoking/7eb260c97f26488daa0ad4de1429436c.jpg,"ground, poison",False,poison,0.7240774,ground,0.27827692,flying,0.156377
+213,data/Nidoking/00000067.jpeg,"ground, poison",False,poison,0.83419144,ground,0.13268042,water,0.121911906
+214,data/Koffing/b8e8ee23d7bc430c813b75d3f14ad6ed.jpg,poison,False,poison,0.39436823,psychic,0.3881301,water,0.16806413
+215,data/Nidoking/00000009.png,"ground, poison",False,poison,0.7679436,ground,0.20348777,normal,0.06068398
+216,data/Golduck/00000209.png,water,True,water,0.65587175,poison,0.1411087,flying,0.11137135
+217,data/Chansey/00000047.png,normal,True,normal,0.8961874,psychic,0.34469843,water,0.116541095
+218,data/Charizard/00000198.png,"fire, flying",False,fire,0.30712777,flying,0.2637775,electric,0.13749553
+219,data/Vileplume/00000008.png,"grass, poison",True,grass,0.9833,poison,0.96635324,normal,0.042775642
+220,data/Poliwrath/15ae1592aa3647c085a1ad794d4e5e82.jpg,water,True,water,0.7154172,flying,0.2590678,bug,0.19365044
+221,data/Scyther/0197e1cf38474cd6be848da61cbd5b46.jpg,"bug, flying",True,bug,0.9693291,flying,0.5704023,psychic,0.073763125
+222,data/Growlithe/00000028.jpg,fire,True,fire,0.9100116,flying,0.15798323,normal,0.056451716
+223,data/Exeggutor/00000211.jpg,"grass, psychic",False,grass,0.571563,psychic,0.43016464,flying,0.3744715
+224,data/Kakuna/00000106.png,"bug, poison",False,ground,0.39126584,electric,0.24930453,flying,0.23603807
+225,data/Metapod/00000056.jpg,bug,True,bug,0.93702817,flying,0.33865643,poison,0.08999947
+226,data/Caterpie/00000087.png,bug,True,bug,0.9518025,flying,0.058840256,grass,0.05680739
+227,data/Gyarados/00000054.jpg,"flying, water",False,water,0.6371087,flying,0.35251147,poison,0.1598253
+228,data/Flareon/00000002.png,fire,True,fire,0.9915354,flying,0.14512594,water,0.025780555
+229,data/Scyther/00000040.png,"bug, flying",True,bug,0.89731264,flying,0.8578315,psychic,0.20257214
+230,data/Psyduck/00000183.jpg,water,False,electric,0.30187857,psychic,0.2742955,flying,0.18296045
+231,data/Weedle/6c57bba3252846e0a604aa585eaad7b9.jpg,"bug, poison",False,grass,0.3173074,bug,0.2634092,flying,0.2546033
+232,data/Flareon/00000027.png,fire,True,fire,0.98235285,flying,0.22881448,normal,0.005306163
+233,data/Gengar/00000074.png,poison,True,poison,0.7160442,bug,0.22382903,flying,0.15864082
+234,data/Kakuna/2bf0d8b95abe4405b15277a7df7adb2a.jpg,"bug, poison",False,normal,0.33250752,ground,0.2821125,psychic,0.26668048
+235,data/Magmar/ff7d96200ace402aba84d4a88566ed7b.jpg,fire,False,fire,0.42847693,flying,0.17282584,ground,0.13487041
+236,data/Oddish/00000101.png,"grass, poison",False,bug,0.79647213,flying,0.11726131,poison,0.088135034
+237,data/Pinsir/00000150.png,bug,False,ground,0.55834156,water,0.1722088,bug,0.11857898
+238,data/Meowth/d986b7dbcc2149a4b69c5d54be411e2e.jpg,normal,True,normal,0.66193295,flying,0.3729932,fire,0.30766246
+239,data/Vulpix/00000095.png,fire,True,fire,0.71963996,flying,0.2671273,normal,0.07441129
+240,data/Wigglytuff/00000129.png,normal,True,normal,0.9388324,psychic,0.09315253,water,0.061601095
+241,data/Farfetchd/00000154.jpg,"flying, normal",False,water,0.40757394,flying,0.3021576,psychic,0.12450013
+242,data/Golbat/0fe1dcce097942aeb6df5d06dbe5f580.jpg,"flying, poison",True,poison,0.97048163,flying,0.9478232,grass,0.10122272
+243,data/Scyther/00000212.jpg,"bug, flying",False,bug,0.9499127,flying,0.44242424,psychic,0.037573416
+244,data/Dragonite/00000059.png,flying,False,flying,0.63802695,fire,0.5871208,normal,0.33626074
+245,data/Growlithe/00000035.gif,fire,False,flying,0.4176596,fire,0.34680656,normal,0.2640959
+246,data/Jynx/00000053.jpg,psychic,True,psychic,0.7711259,water,0.47215557,normal,0.11815015
+247,data/Graveler/00000072.jpg,ground,False,water,0.41304886,normal,0.2364344,flying,0.23107061
+248,data/Alakazam/00000229.png,psychic,True,psychic,0.83535105,electric,0.15963277,ground,0.08517609
+249,data/Ninetales/00000028.png,fire,False,fire,0.38519627,flying,0.24954689,normal,0.21629743
+250,data/Rapidash/00000013.png,fire,True,fire,0.94835305,flying,0.13531752,water,0.12561606
+251,data/Venusaur/00000072.jpg,"grass, poison",True,grass,0.9960362,poison,0.9944756,normal,0.021407504
+252,data/Dugtrio/00000004.gif,ground,False,ground,0.4269543,bug,0.27708143,normal,0.20958379
+253,data/Electabuzz/00000034.jpg,electric,False,electric,0.42166018,ground,0.20900783,normal,0.102243826
+254,data/Abra/00000001.png,psychic,True,psychic,0.83622766,ground,0.102518335,bug,0.0784005
+255,data/Staryu/00000012.png,water,False,normal,0.5543114,ground,0.26325595,flying,0.14364891
+256,data/Chansey/79bbfbd1e25349699d972bf97e679589.jpg,normal,True,normal,0.933452,psychic,0.16482207,grass,0.029145649
+257,data/Kingler/7a6a8f5fafa04bdda5618b1a61f509ce.jpg,water,False,flying,0.68340087,normal,0.578918,water,0.25129572
+258,data/Sandshrew/ec4d9ddb19aa4b1b96d6aeb2de961cef.jpg,ground,False,ground,0.40612158,psychic,0.32158622,electric,0.21707162
+259,data/Electrode/f599e6bef02347dc92955860b74dec21.jpg,electric,True,electric,0.57825387,water,0.26985416,flying,0.17633122
+260,data/Pikachu/00000166.jpg,electric,False,water,0.38506454,bug,0.2240399,electric,0.15576385
+261,data/Graveler/bf72c70e8897494bb48f5f48fdf6580a.jpg,ground,True,ground,0.8445318,normal,0.11286005,water,0.057306796
+262,data/Golbat/00000034.png,"flying, poison",False,flying,0.9524122,poison,0.27758056,water,0.21741195
+263,data/Charmander/00000037.jpg,fire,False,fire,0.9375776,flying,0.68376607,normal,0.038494498
+264,data/Tangela/00000112.png,grass,False,flying,0.47223154,water,0.40063632,bug,0.28536502
+265,data/Poliwag/00000042.png,water,False,flying,0.7279497,poison,0.45568287,bug,0.1206473
+266,data/Pidgeot/00000163.jpg,"flying, normal",False,normal,0.42376915,flying,0.40659127,fire,0.2357119
+267,data/Dugtrio/00000032.gif,ground,False,flying,0.4519965,normal,0.31966785,water,0.1881072
+268,data/Rhyhorn/2163a5e942bd4eadb6e0b7a0180f5576.jpg,ground,False,electric,0.30287692,water,0.19706012,ground,0.19522224
+269,data/Tangela/00000182.jpg,grass,False,flying,0.4900966,grass,0.3019755,water,0.20895417
+270,data/Geodude/0ea4999706ef497eaa0fa429cba52588.jpg,ground,False,psychic,0.4469001,flying,0.28392676,normal,0.13569763
+271,data/Electrode/00000017.png,electric,False,psychic,0.5115692,water,0.35919935,electric,0.1641708
+272,data/Ekans/73046797b93f44b1b39a15b9e7c11b43.jpg,poison,False,poison,0.47444433,psychic,0.43053293,water,0.35590503
+273,data/Slowpoke/0dd751f2104544fe856d7758efd1765b.jpg,"psychic, water",False,normal,0.6163,psychic,0.24237335,water,0.21326703
+274,data/Blastoise/00000085.jpg,water,False,normal,0.34574735,ground,0.28248325,water,0.1669535
+275,data/Nidoking/00000124.png,"ground, poison",False,water,0.40211305,flying,0.14272295,ground,0.09603652
+276,data/Eevee/00000040.jpg,normal,False,fire,0.69984937,flying,0.3587933,normal,0.25306192
+277,data/Zapdos/00000061.png,"electric, flying",True,electric,0.8102486,flying,0.63539135,bug,0.14616098
+278,data/Omastar/22d16a81913d4bd98d99bd5e6a484555.jpg,water,True,water,0.5429382,flying,0.21704708,normal,0.1339477
+279,data/Fearow/00000009.png,"flying, normal",False,normal,0.34646016,flying,0.31569564,bug,0.21387817
+280,data/Oddish/4ddaefbc8a824c2bbf862c1291753ad1.jpg,"grass, poison",True,poison,0.99888545,grass,0.9980439,bug,0.010036833
+281,data/Raticate/bf9be92c54b44a0ba5a2f2214b97ebec.jpg,normal,False,poison,0.3283633,bug,0.27420768,psychic,0.23701808
+282,data/Hypno/0a797b84d0324947bb5ac5d523b4d1eb.jpg,psychic,True,psychic,0.75611466,bug,0.26897976,flying,0.15768626
+283,data/Bulbasaur/00000037.jpg,"grass, poison",True,poison,0.9875466,grass,0.982874,flying,0.03249488
+284,data/Articuno/00000072.png,flying,True,flying,0.81826866,water,0.2424531,poison,0.10481126
+285,data/Staryu/40e8bd70eef046aca7c3b1f8c0735755.jpg,water,False,ground,0.3060836,psychic,0.2787469,bug,0.10796722
+286,data/Pidgeot/00000106.jpg,"flying, normal",False,ground,0.58307284,flying,0.40409225,normal,0.40263382
+287,data/Scyther/abc5cd0bbe554416abf90ec65521da63.jpg,"bug, flying",False,bug,0.7980835,flying,0.38903034,psychic,0.15145886
+288,data/Blastoise/00000241.png,water,False,ground,0.6190008,water,0.5169775,flying,0.04235783
+289,data/Nidorina/0dc45a2497c04ac6aa8c500c8439cf39.jpg,poison,False,water,0.32650772,grass,0.28854147,flying,0.2553491
+290,data/Blastoise/00000021.png,water,True,water,0.7363757,flying,0.33882782,normal,0.29505736
+291,data/Gyarados/00000221.png,"flying, water",False,water,0.88249445,flying,0.41025797,bug,0.05358937
+292,data/Sandshrew/00000021.jpg,ground,False,ground,0.25899154,normal,0.18656766,flying,0.18596192
+293,data/Caterpie/00000054.jpg,bug,True,bug,0.98215747,poison,0.10215744,flying,0.022472847
+294,data/Weezing/00000030.png,poison,False,psychic,0.42154726,poison,0.36243653,ground,0.13724142
+295,data/Clefable/00000086.jpeg,normal,False,psychic,0.4560571,normal,0.1599285,poison,0.122995324
+296,data/Jigglypuff/c1d5038b4ed444f4ac2e19c845e80334.jpg,normal,False,bug,0.2721659,psychic,0.27011642,electric,0.16057724
+297,data/Kangaskhan/f9f56b165bdc4e3a96414ee4b9c25231.jpg,normal,False,ground,0.6729247,normal,0.3784793,flying,0.12166725
+298,data/Diglett/00000210.jpg,ground,True,ground,0.7768176,bug,0.13674043,normal,0.12892921
+299,data/Marowak/e0af71c14a2b4c298d81b0173d8f8c09.jpg,ground,True,ground,0.57726514,normal,0.23623475,flying,0.1537859
+300,data/Dragonite/00000011.jpg,flying,True,flying,0.5994678,normal,0.4385846,fire,0.11903422
+301,data/Cubone/364f46cdbc84480dbdc322357d7df225.jpg,ground,True,ground,0.6206357,normal,0.27882335,flying,0.092219636
+302,data/Mewtwo/06e8e727f6244dc0b073271efbac372a.jpg,psychic,False,bug,0.6284709,psychic,0.3183525,flying,0.13062026
+303,data/Nidoking/6e8736f576884676bbb7569d32a2e4c8.jpg,"ground, poison",True,poison,0.5307971,ground,0.50977874,normal,0.15352485
+304,data/Kingler/00000126.jpg,water,False,electric,0.47722366,ground,0.2209939,bug,0.082892984
+305,data/Charizard/00000031.jpg,"fire, flying",False,fire,0.8276346,flying,0.41641203,normal,0.10195323
+306,data/Voltorb/00000065.png,electric,True,electric,0.78945154,fire,0.15888773,water,0.12328809
+307,data/Wartortle/b5cd5d445383493d94d028e0ac723d7a.jpg,water,True,water,0.6647568,flying,0.39529017,bug,0.11516635
+308,data/Wigglytuff/00000146.jpg,normal,True,normal,0.89282405,psychic,0.1775256,flying,0.15261067
+309,data/Venusaur/00000042.jpg,"grass, poison",True,poison,0.83568513,grass,0.7591194,water,0.073762946
+310,data/Raichu/00000002.png,electric,False,normal,0.3895126,flying,0.26401845,electric,0.14423272
+311,data/Cubone/00000030.png,ground,False,normal,0.31097904,bug,0.30823416,ground,0.17290077
+312,data/Flareon/00000223.jpg,fire,True,fire,0.9524046,flying,0.026070548,water,0.022922475
+313,data/Scyther/00000066.jpg,"bug, flying",False,bug,0.9737236,poison,0.12084878,flying,0.063191935
+314,data/Meowth/74d9da0d59b94741b5aa279f3a013bfb.jpg,normal,True,normal,0.62905324,flying,0.24716611,ground,0.094863504
+315,data/Pidgeotto/5ee375ce295c49ac86877347e7668afd.jpg,"flying, normal",False,normal,0.5365853,flying,0.3960786,ground,0.084184095
+316,data/Horsea/00000090.jpg,water,True,water,0.9140918,flying,0.43356526,poison,0.026787981
+317,data/Gyarados/2b891c2e8fdc47d085898c9dc9a9a217.jpg,"flying, water",True,water,0.8850536,flying,0.53788847,bug,0.028524041
+318,data/Ekans/3500849f79d64061b80c7131e653c2ff.jpg,poison,False,poison,0.47305304,psychic,0.15150957,normal,0.087262765
+319,data/Pikachu/4c021839fc7d424dbcd6be33a6de1738.jpg,electric,False,electric,0.3679992,psychic,0.3439661,water,0.07339846
+320,data/Rhydon/aae92d0b7fa54fef87d13da7413fe6ac.jpg,ground,True,ground,0.70965004,bug,0.07651858,flying,0.05583725
+321,data/Exeggcute/00000011.png,"grass, psychic",False,normal,0.369429,psychic,0.32204542,electric,0.24633585
+322,data/Mewtwo/00000144.jpg,psychic,False,water,0.37927386,ground,0.17257898,electric,0.0621876
+323,data/Metapod/534451c678b64e6e823426952c6b6656.jpg,bug,False,bug,0.58683586,grass,0.58603024,poison,0.43175176
+324,data/Tangela/00000091.jpg,grass,True,grass,0.98374355,flying,0.11973012,water,0.06480363
+325,data/Blastoise/00000020.jpg,water,True,water,0.8981049,flying,0.120914795,ground,0.07366826
+326,data/Alakazam/0f957c10591a4acebdedc5e651606239.jpg,psychic,True,psychic,0.8263758,ground,0.14924842,bug,0.04259179
+327,data/Cubone/00000088.png,ground,False,normal,0.18125965,ground,0.16576482,fire,0.16078405
+328,data/Marowak/eaa2ecfe794b422f8294d4a9bbce9797.jpg,ground,True,ground,0.73121023,water,0.0892873,normal,0.08654143
+329,data/Voltorb/00000072.png,electric,True,electric,0.6121815,fire,0.14504698,water,0.11019415
+330,data/Rhydon/d0cbc8338586472d807422c834a56a7c.jpg,ground,True,ground,0.88216746,water,0.4784488,flying,0.040334355
+331,data/Bulbasaur/00000232.png,"grass, poison",False,bug,0.6924259,poison,0.41206262,flying,0.1739873
+332,data/Magikarp/00000067.png,water,False,water,0.47219878,flying,0.2719486,bug,0.20125946
+333,data/Nidoqueen/00000012.png,"ground, poison",False,water,0.64326876,poison,0.25298575,flying,0.1919295
+334,data/Exeggcute/3225388ba64b42b4817dd7430c80706f.jpg,"grass, psychic",False,normal,0.42467636,psychic,0.38143018,water,0.21696977
+335,data/Mewtwo/00000117.jpg,psychic,False,poison,0.6007074,bug,0.21764405,psychic,0.13770482
+336,data/Golbat/00000050.png,"flying, poison",False,flying,0.9524122,poison,0.27758056,water,0.21741195
+337,data/Clefairy/00000182.png,normal,False,normal,0.4794726,water,0.3793034,psychic,0.33755395
+338,data/Psyduck/00000182.png,water,False,electric,0.1749765,water,0.14372157,fire,0.13789767
+339,data/Charmeleon/e9b003efac4044c0abd657be84e3a189.jpg,fire,False,water,0.29896164,fire,0.24551049,normal,0.21306843
+340,data/Zubat/dc625449bc724219999226fcb5dc9b09.jpg,"flying, poison",True,flying,0.98065495,poison,0.9406934,ground,0.053015202
+341,data/Rhydon/00000037.png,ground,True,ground,0.6582565,poison,0.1692588,water,0.16652146
+342,data/Exeggcute/0e1e454ec5a94c8790983fec3ade2800.jpg,"grass, psychic",False,normal,0.58406854,psychic,0.34721118,bug,0.17837866
+343,data/Wartortle/076d1708d8f5499ea5ed3ae455e3a169.jpg,water,False,ground,0.6104171,water,0.5740674,electric,0.027486794
+344,data/Horsea/00000044.jpg,water,True,water,0.6737637,flying,0.36933076,poison,0.09654575
+345,data/Geodude/d65b8b03964e440e8f5cb936ab163c55.jpg,ground,False,electric,0.37163198,ground,0.34544793,water,0.0811346
+346,data/Scyther/00000096.jpg,"bug, flying",True,bug,0.96005386,flying,0.64705664,psychic,0.07138184
+347,data/Electabuzz/00000197.jpg,electric,False,electric,0.43784192,flying,0.27959743,ground,0.1842311
+348,data/Jigglypuff/60981e7fa8934b779bfd75d1fc02109a.jpg,normal,False,electric,0.47434467,psychic,0.17309034,grass,0.17218459
+349,data/Poliwhirl/f682d73aa77b481eb379af80c030209d.jpg,water,True,water,0.9276063,flying,0.1339713,bug,0.056280132
+350,data/Lickitung/00000106.jpg,normal,False,psychic,0.60050225,water,0.57716227,normal,0.24246466
+351,data/Dewgong/00000217.jpg,water,True,water,0.7570952,flying,0.21188481,bug,0.08873812
+352,data/Caterpie/00000025.jpg,bug,False,normal,0.33445448,psychic,0.22017531,bug,0.18678859
+353,data/Tauros/1ba9704c204941d7b9ed8b012ab61a87.jpg,normal,False,normal,0.4741527,bug,0.30748823,flying,0.22275487
+354,data/Blastoise/71d3e2c30ad4403e9aa38958bb38e4d9.jpg,water,False,flying,0.37453616,water,0.3449824,normal,0.14819632
+355,data/Farfetchd/3dad20519f5b49328ff14e7568dc92eb.jpg,"flying, normal",False,flying,0.24845561,normal,0.20384733,psychic,0.11399672
+356,data/Golbat/00000205.jpg,"flying, poison",False,flying,0.7372879,bug,0.6393427,poison,0.5474337
+357,data/Shellder/00000234.png,water,False,water,0.44556865,bug,0.37586716,flying,0.33751005
+358,data/Exeggutor/00000086.jpg,"grass, psychic",True,psychic,0.8547424,grass,0.58059067,bug,0.102523714
+359,data/Sandshrew/00000005.png,ground,False,psychic,0.5690558,ground,0.3131793,electric,0.10931155
+360,data/Jynx/66e8d2560626450c844ffb8ef8aa7b04.jpg,psychic,True,psychic,0.86548585,water,0.19153087,normal,0.09528574
+361,data/Pikachu/31.png,electric,False,psychic,0.30612212,electric,0.20023255,water,0.123055086
+362,data/Charizard/00000158.jpg,"fire, flying",False,electric,0.4087598,fire,0.40360123,flying,0.3000739
+363,data/Drowzee/2c3a50ea458f437ca6e0779c662223ad.jpg,psychic,False,psychic,0.30163908,electric,0.24404924,flying,0.15649787
+364,data/Venonat/00000116.png,"bug, poison",False,poison,0.8546583,bug,0.22461984,normal,0.0954278
+365,data/Raichu/d646480481424765b5c01d3e0294d815.jpg,electric,False,electric,0.47415692,flying,0.2585447,normal,0.19122143
+366,data/Snorlax/00000132.jpg,normal,True,normal,0.62866044,flying,0.49445596,fire,0.24070528
+367,data/Zubat/00000009.jpg,"flying, poison",True,poison,0.943209,flying,0.8907094,ground,0.14569032
+368,data/Drowzee/778c29d9fa6841dbb121e8dfff88999d.jpg,psychic,False,psychic,0.36650097,flying,0.13844334,electric,0.08840797
+369,data/Exeggcute/00000114.png,"grass, psychic",True,grass,0.8382709,psychic,0.835692,normal,0.20945255
+370,data/Arcanine/00000052.png,fire,True,fire,0.55569375,normal,0.27761546,flying,0.09945055
+371,data/Charmander/0e2fe299821445639dc97b6fdef415be.jpg,fire,True,fire,0.9414377,flying,0.26744077,bug,0.017261244
+372,data/Charmeleon/00000016.png,fire,True,fire,0.989636,flying,0.18757764,water,0.02817662
+373,data/Mewtwo/5.png,psychic,True,psychic,0.5091513,poison,0.18678896,bug,0.15064307
+374,data/Mewtwo/9ca9588a87df4af8b434c0ce79009f43.jpg,psychic,False,psychic,0.40333557,poison,0.19183193,normal,0.18249181
+375,data/Goldeen/00000042.jpg,water,False,water,0.31696132,flying,0.28875226,psychic,0.19934443
+376,data/Exeggutor/77c1b2a07e884acbaadebc902e863d95.jpg,"grass, psychic",True,psychic,0.795173,grass,0.7853486,flying,0.07611594
+377,data/Caterpie/00000197.png,bug,True,bug,0.9717684,poison,0.069244295,flying,0.038166165
+378,data/Nidoking/ac8416ed771d482983ac612f93a03519.jpg,"ground, poison",False,poison,0.4510768,ground,0.36789042,flying,0.11586779
+379,data/Ponyta/cbf0b06cba13441ba23f6924637a94ff.jpg,fire,True,fire,0.52056366,water,0.4504476,normal,0.18977563
+380,data/Flareon/00000125.png,fire,True,fire,0.9937622,flying,0.048042383,water,0.030190699
+381,data/Spearow/ccf004d7699d4af1bb124a0fab547f61.jpg,"flying, normal",False,flying,0.60903054,normal,0.35501555,water,0.21487626
+382,data/Ditto/c9b751d47a0042509ef4e55e535f1e15.jpg,normal,False,poison,0.75766414,normal,0.3068073,ground,0.11808323
+383,data/Squirtle/43.png,water,True,water,0.7442931,flying,0.33461803,normal,0.10835169
+384,data/Bulbasaur/00000213.jpg,"grass, poison",False,poison,0.59041184,grass,0.42023987,flying,0.36679468
+385,data/Drowzee/00000026.png,psychic,True,psychic,0.54600435,bug,0.39798614,poison,0.32965803
+386,data/Weedle/00000062.png,"bug, poison",False,normal,0.36050624,bug,0.17991114,flying,0.17069925
+387,data/Slowpoke/00000154.jpg,"psychic, water",False,psychic,0.8257629,normal,0.30686015,water,0.15180434
+388,data/Charmander/46.png,fire,True,fire,0.97669595,flying,0.24614847,bug,0.016270783
+389,data/Charmander/00000005.png,fire,True,fire,0.93875915,flying,0.2559638,normal,0.027837966
+390,data/Ponyta/d46e6a70299244bab253cd636f8b4440.jpg,fire,True,fire,0.97335786,water,0.1621819,flying,0.034969233
+391,data/Charmeleon/00000177.png,fire,True,fire,0.7308429,normal,0.20066802,water,0.06425251
+392,data/Zapdos/00000017.png,"electric, flying",True,electric,0.918371,flying,0.67969835,psychic,0.043006685
+393,data/Magneton/00000022.png,electric,False,water,0.6370582,electric,0.2269235,flying,0.060608715
+394,data/Wigglytuff/00000017.png,normal,True,normal,0.9311272,psychic,0.25853157,grass,0.037287757
+395,data/Electrode/10f10392d1f84164999deb053c6aeac0.jpg,electric,False,electric,0.8750163,grass,0.53624916,poison,0.5257351
+396,data/Meowth/00000096.png,normal,True,normal,0.73191565,flying,0.4861452,fire,0.17787635
+397,data/Magikarp/00000145.gif,water,True,water,0.6384867,flying,0.38846397,bug,0.16767298
+398,data/Pidgeot/00000038.png,"flying, normal",False,water,0.48007238,normal,0.36945194,flying,0.36614966
+399,data/Koffing/00000004.png,poison,True,poison,0.56239396,ground,0.27488747,bug,0.15888497
+400,data/Rhydon/c6d027900d2340e3994222f01106df2c.jpg,ground,True,ground,0.7575314,flying,0.06330721,water,0.049773674
+401,data/Dugtrio/00000122.png,ground,True,ground,0.6523736,normal,0.4081983,bug,0.2118349
+402,data/Rapidash/00000180.jpg,fire,True,fire,0.97642595,water,0.052713875,flying,0.047488157
+403,data/Rapidash/00000120.jpg,fire,True,fire,0.8556165,flying,0.22093803,normal,0.116326034
+404,data/Lapras/00000013.jpg,water,True,water,0.7181172,ground,0.097189255,bug,0.057652887
+405,data/Pidgeot/fe43820ae5124419b25c576e277af28b.jpg,"flying, normal",False,flying,0.4612919,electric,0.3639679,psychic,0.13066964
+406,data/Moltres/10044ca5d21f4e8082df29f25d50e8cc.jpg,"fire, flying",False,fire,0.65652823,flying,0.3249634,psychic,0.054114133
+407,data/Caterpie/514c45dbe34347a1861c504880bcd171.jpg,bug,True,bug,0.6756338,psychic,0.27733994,flying,0.09947175
+408,data/Porygon/6385fb552bf2478f9e2275f35e02bb04.jpg,normal,True,normal,0.513109,psychic,0.40511352,water,0.080024466
+409,data/Charmeleon/00000015.png,fire,True,fire,0.92574435,flying,0.03734025,normal,0.034482446
+410,data/Pinsir/d74b4c23a6f54c1783c1da4c01a8b8bf.jpg,bug,False,water,0.38434762,normal,0.20345902,bug,0.1352109
+411,data/Growlithe/00000132.png,fire,False,normal,0.46236354,fire,0.26492175,flying,0.2113315
+412,data/Snorlax/c15276bdce314b71b7697ca03f5bab40.jpg,normal,True,normal,0.8003848,water,0.10310815,psychic,0.024994958
+413,data/Butterfree/4301ccb63a7043099980bdbdfe1078f1.jpg,"bug, flying",True,flying,0.8529482,bug,0.7894417,water,0.2584513
+414,data/Sandshrew/00000006.png,ground,False,ground,0.4412125,electric,0.31831437,psychic,0.20918675
+415,data/Cloyster/00000082.png,water,False,bug,0.30718106,water,0.2762931,flying,0.19044255
+416,data/Pidgeot/00000024.png,"flying, normal",True,normal,0.62326866,flying,0.5903666,fire,0.33268565
+417,data/Electrode/00000015.png,electric,False,electric,0.3458513,psychic,0.31323206,bug,0.18236192
+418,data/Porygon/00000023.png,normal,False,normal,0.4083497,poison,0.22083366,grass,0.17927794
+419,data/Poliwhirl/00000121.png,water,True,water,0.87025654,bug,0.115100026,flying,0.09178115
+420,data/Pinsir/e9b5c4f9976c4cba94492380f3076992.jpg,bug,False,ground,0.6285749,normal,0.24979547,water,0.1038093
+421,data/Tangela/00000194.jpg,grass,False,flying,0.24596909,grass,0.24592121,normal,0.11574152
+422,data/Ekans/00000071.jpg,poison,False,poison,0.42613968,psychic,0.2916041,water,0.2462722
+423,data/Nidorina/a4c22e01cc694f779dd0fb28ed74f12a.jpg,poison,True,poison,0.7491362,flying,0.3218892,water,0.19237718
+424,data/Parasect/e2c7651cf951404b9ce3344d07e86064.jpg,"bug, grass",True,bug,0.74105275,grass,0.6156743,fire,0.2561316
+425,data/Koffing/00000117.jpg,poison,True,poison,0.7097456,psychic,0.3395905,bug,0.15123707
+426,data/Jigglypuff/6937cc679be24ec9956eb265ecb0825a.jpg,normal,True,normal,0.95619875,psychic,0.12994319,water,0.02956501
+427,data/Pinsir/aea971fbbe394a65a678b3145ff1c46f.jpg,bug,False,psychic,0.2573701,ground,0.17224033,normal,0.11602735
+428,data/Vulpix/00000014.jpg,fire,True,fire,0.7928982,normal,0.14309154,water,0.11307973
+429,data/Growlithe/c2727a4de4b44fd7a0b9f44f6e0e582d.jpg,fire,True,fire,0.83443356,flying,0.22050734,normal,0.2193329
+430,data/Growlithe/00000226.jpg,fire,False,normal,0.26676005,flying,0.26480025,ground,0.09794997
+431,data/Jigglypuff/00000025.png,normal,True,normal,0.88937145,water,0.11092011,psychic,0.04539892
+432,data/Rapidash/f143e06afa4043b087f08316ce247103.jpg,fire,False,water,0.35254008,normal,0.20978867,psychic,0.15225175
+433,data/Zubat/00000016.png,"flying, poison",True,flying,0.961593,poison,0.8133527,water,0.085193574
+434,data/Snorlax/00000125.gif,normal,False,water,0.7629494,flying,0.19462031,normal,0.052479383
+435,data/Wartortle/86dc29b8fee648abb8d9d4be46863bdb.jpg,water,True,water,0.9037272,bug,0.14024682,poison,0.09461505
+436,data/Pidgey/00000033.png,"flying, normal",True,flying,0.8002461,normal,0.7699278,fire,0.2508551
+437,data/Aerodactyl/8c1a69bc6f3746bdabacd8d658041dcb.jpg,flying,False,flying,0.45586798,poison,0.41011456,psychic,0.21452573
+438,data/Sandshrew/505e01f6cdb5474098e816f0ab6372b3.jpg,ground,False,psychic,0.479637,ground,0.3807876,bug,0.17686702
+439,data/Pidgeot/78c7da2ff3ec4f3eba2dfaea8057e2cf.jpg,"flying, normal",True,flying,0.66987574,normal,0.6239797,ground,0.059721015
+440,data/Aerodactyl/0813a450419f4733bfa5f782810219a8.jpg,flying,False,water,0.29850152,poison,0.16633306,flying,0.15379594
+441,data/Pidgeot/00000008.png,"flying, normal",True,normal,0.94653577,flying,0.9071242,fire,0.05646367
+442,data/Goldeen/00000112.jpg,water,True,water,0.5572992,psychic,0.2548364,electric,0.15771808
+443,data/Cloyster/09aeac19ddda4463af325f7c20b74ea7.jpg,water,False,water,0.33567455,bug,0.24113524,poison,0.15347208
+444,data/Pidgey/00000078.png,"flying, normal",False,fire,0.65930396,flying,0.43260175,normal,0.31195828
+445,data/Growlithe/00000002.jpg,fire,True,fire,0.9306559,flying,0.24013162,normal,0.06651021
+446,data/Zapdos/00000149.png,"electric, flying",False,flying,0.5227282,electric,0.43957418,normal,0.21376991
+447,data/Parasect/00000017.png,"bug, grass",False,fire,0.47108,bug,0.41933134,water,0.15559733
+448,data/Zapdos/00000104.jpg,"electric, flying",False,electric,0.3511008,psychic,0.22884001,flying,0.13703693
+449,data/Parasect/00000131.png,"bug, grass",False,bug,0.50902784,fire,0.42773053,grass,0.34281832
+450,data/Venonat/00000117.png,"bug, poison",False,water,0.3822595,flying,0.25827706,electric,0.16512634
+451,data/Raticate/00000100.png,normal,False,normal,0.806507,flying,0.6224635,ground,0.11635216
+452,data/Grimer/f4b092f7309b4eb68986cebe6be3af7d.jpg,poison,True,poison,0.5688484,ground,0.18922341,psychic,0.11604004
+453,data/Weedle/fc06c8dc20344e91ac92db51d5bb9cee.jpg,"bug, poison",False,flying,0.361543,normal,0.35225344,bug,0.28115776
+454,data/Doduo/00000148.jpg,"flying, normal",False,water,0.46582258,flying,0.35637993,bug,0.2176454
+455,data/Spearow/4a987268cbee41f39960611e95623431.jpg,"flying, normal",False,water,0.47853398,normal,0.40687314,flying,0.37425452
+456,data/Parasect/00000014.png,"bug, grass",True,grass,0.8927834,bug,0.8157633,electric,0.20845422
+457,data/Wigglytuff/00000145.png,normal,False,normal,0.2780425,psychic,0.26075998,flying,0.1607536
+458,data/Omanyte/ed2f985ba9cf461781f55968894c7b5d.jpg,water,True,water,0.72745067,flying,0.2738595,normal,0.26017132
+459,data/Farfetchd/1d39290d41f94cbc8516740e81f0a718.jpg,"flying, normal",True,normal,0.7359369,flying,0.61345863,fire,0.081751026
+460,data/Parasect/d85be3aa6aab44c284ea7985a8e26799.jpg,"bug, grass",True,bug,0.8415195,grass,0.70500606,psychic,0.22646177
+461,data/Flareon/00000031.png,fire,False,fire,0.37992615,flying,0.31858292,electric,0.21504846
+462,data/MrMime/00000116.gif,psychic,True,psychic,0.519654,flying,0.35895732,bug,0.17042223
+463,data/Wigglytuff/00000089.png,normal,True,normal,0.7710121,psychic,0.14996544,water,0.109176986
+464,data/Omanyte/00000063.png,water,True,water,0.9122237,normal,0.10814045,ground,0.07317093
+465,data/Sandshrew/00000009.png,ground,False,ground,0.37987292,psychic,0.33558375,flying,0.19225906
+466,data/Starmie/5327b2962b584a2e98963bd4251e95c3.jpg,"psychic, water",True,psychic,0.930481,water,0.79552734,fire,0.07237899
+467,data/Snorlax/00000202.png,normal,False,water,0.74775267,flying,0.16193633,normal,0.11205501
+468,data/Tangela/00000198.jpg,grass,False,flying,0.44878772,grass,0.36948994,water,0.1469631
+469,data/Kingler/00000021.png,water,True,water,0.6205052,flying,0.4502721,normal,0.22341157
+470,data/Ivysaur/00000150.png,"grass, poison",True,grass,0.9994602,poison,0.99888444,normal,0.0044023604
+471,data/Chansey/8d7e7967d00d418a9ed5b8a73496785a.jpg,normal,True,normal,0.956791,psychic,0.13815634,water,0.11987552
+472,data/Fearow/00000042.png,"flying, normal",False,water,0.4497103,flying,0.38734737,normal,0.28219134
+473,data/Magnemite/00000094.jpg,electric,False,water,0.47008923,flying,0.18232845,ground,0.09431706
+474,data/Jolteon/4d8fc9f19b7b42d88f4aac36c0198820.jpg,electric,False,psychic,0.64926994,electric,0.370404,flying,0.08029379
+475,data/Hypno/f674e63018794cdca96fd67bac735702.jpg,psychic,True,psychic,0.5097146,electric,0.22160704,flying,0.10003138
+476,data/Wigglytuff/23fbee9992a843e4a80771d6d2a6d40c.jpg,normal,True,normal,0.94095105,psychic,0.20008424,water,0.041907232
+477,data/Kingler/00000116.jpg,water,False,fire,0.41885376,flying,0.30988047,water,0.2825512
+478,data/Magneton/00000088.gif,electric,False,electric,0.3322202,water,0.33185938,flying,0.22643457
+479,data/Sandslash/00000201.png,ground,False,flying,0.6399701,normal,0.5580775,fire,0.1599795
+480,data/Nidorino/00000003.png,poison,True,poison,0.92458814,normal,0.24615796,bug,0.14296678
+481,data/Moltres/8769201d38954fb7810d04246ef6586e.jpg,"fire, flying",False,fire,0.9225002,flying,0.35607445,normal,0.017431807
+482,data/Alakazam/8275eb86ab4a4b75b3629489f7292515.jpg,psychic,True,psychic,0.69221795,poison,0.09756876,ground,0.08296626
+483,data/Sandslash/bd9c52b1eb8149a0ae62e28fd31e236d.jpg,ground,True,ground,0.52800465,normal,0.28701591,flying,0.121931314
+484,data/Tangela/00000015.jpg,grass,False,grass,0.734172,flying,0.5676392,poison,0.15124074
+485,data/MrMime/00000023.gif,psychic,True,psychic,0.654183,flying,0.29475397,normal,0.23193547
+486,data/Shellder/e123138ab8a54451a4a9aec02a008b98.jpg,water,False,poison,0.40521792,flying,0.22262481,water,0.16081066
+487,data/Alakazam/a2365c6b200046588d69a4d8bd6b4d98.jpg,psychic,True,psychic,0.7249409,electric,0.19061458,bug,0.13067396
+488,data/Pikachu/00000108.png,electric,True,electric,0.8044751,flying,0.3082938,bug,0.053186912
+489,data/Ponyta/00000224.jpg,fire,True,fire,0.9515294,flying,0.08887629,normal,0.048471123
+490,data/Porygon/00000183.jpg,normal,False,poison,0.65798974,grass,0.5440473,flying,0.37536794
+491,data/Jolteon/00000119.jpg,electric,False,flying,0.43360743,bug,0.4222621,psychic,0.33046737
+492,data/Kakuna/3251b14b1a884042b20c83db93380837.jpg,"bug, poison",False,bug,0.420023,ground,0.24457014,psychic,0.18621619
+493,data/MrMime/00000072.gif,psychic,False,flying,0.2933195,psychic,0.24041982,water,0.23406938
+494,data/Zubat/00000086.png,"flying, poison",False,poison,0.8381666,flying,0.42643005,psychic,0.15181115
+495,data/Ivysaur/9ff2c21d0bc94feeb3601b3c88d1fc5e.jpg,"grass, poison",True,grass,0.9992295,poison,0.9989111,normal,0.0063784188
+496,data/Mew/59de70706e6d4609aad9a4fe474ad9aa.jpg,psychic,False,water,0.33470327,flying,0.28970677,psychic,0.24141856
+497,data/Pidgey/00000144.jpg,"flying, normal",True,normal,0.75861096,flying,0.66952956,psychic,0.07928532
+498,data/Magneton/bbeefe6a718a4c8c80d5379e3d51cd1e.jpg,electric,False,poison,0.24618733,flying,0.23219347,electric,0.21675566
+499,data/Pinsir/00000232.jpg,bug,False,water,0.40649933,flying,0.18723004,grass,0.17666212
+500,data/Dewgong/00000117.png,water,False,poison,0.42667243,grass,0.3565668,flying,0.21100055
+501,data/Rattata/4e5d73852e52477a895f343c36b78207.jpg,normal,False,poison,0.64032316,normal,0.18373501,water,0.11507183
+502,data/Squirtle/00000034.jpg,water,False,water,0.81936914,poison,0.5887131,bug,0.31274056
+503,data/Sandslash/6002243976414df093253b6c1ac99e5c.jpg,ground,False,flying,0.24727151,bug,0.18282276,water,0.16315995
+504,data/Scyther/00000058.png,"bug, flying",True,bug,0.98913527,flying,0.75696564,grass,0.042079173
+505,data/Articuno/3efae1c0b6134e9b9273fc92274a73cb.jpg,flying,False,water,0.776769,flying,0.42487454,poison,0.037538696
+506,data/Rhydon/38c132491080437db62662447554610f.jpg,ground,True,ground,0.7868438,water,0.07055356,poison,0.06854571
+507,data/Flareon/00000034.jpg,fire,True,fire,0.99531496,flying,0.05813416,water,0.030860994
+508,data/Pidgey/00000122.png,"flying, normal",False,normal,0.28416803,water,0.25609273,flying,0.21778429
+509,data/Seadra/d272f4658bf04fe880bb48ea7ed46bed.jpg,water,True,water,0.8919283,flying,0.40878177,poison,0.091952644
+510,data/Tangela/00000173.png,grass,False,flying,0.5566297,grass,0.4267435,bug,0.2339854
+511,data/Growlithe/9d004341ccae4777b816f5450d65a497.jpg,fire,False,normal,0.70398545,flying,0.5498074,ground,0.09484497
+512,data/Kakuna/00000125.png,"bug, poison",False,ground,0.43548277,psychic,0.1974456,bug,0.13504669
+513,data/Magnemite/00000023.png,electric,False,water,0.5262158,flying,0.12069137,ground,0.10001916
+514,data/Kakuna/00000057.jpg,"bug, poison",False,ground,0.359448,poison,0.27225965,flying,0.16977595
+515,data/Goldeen/00000198.png,water,False,flying,0.26312676,water,0.2303087,psychic,0.22281636
+516,data/Wartortle/00000036.gif,water,True,water,0.8701287,bug,0.12979217,flying,0.12864827
+517,data/Vulpix/86b957efcf8848d6a67e624715dda630.jpg,fire,True,fire,0.9489198,flying,0.13516027,normal,0.0645501
+518,data/Pidgeotto/081827de7442419ca2c5c037c3aa90d1.jpg,"flying, normal",False,normal,0.85730314,water,0.1381647,psychic,0.10824411
+519,data/Jynx/00000015.png,psychic,False,fire,0.7404552,psychic,0.1576943,flying,0.12536742
+520,data/Cloyster/00000151.png,water,False,water,0.33422345,flying,0.30173427,bug,0.22561064
+521,data/Weedle/00000150.jpg,"bug, poison",False,normal,0.52260953,flying,0.42139283,bug,0.35629833
+522,data/Porygon/bfb9ae06080e409f99a864dd7d42d457.jpg,normal,False,poison,0.66309816,bug,0.40040955,normal,0.059643507
+523,data/Fearow/00000228.png,"flying, normal",False,bug,0.35615394,electric,0.30060998,flying,0.2779938
+524,data/Rhyhorn/c12e43f6da04428080671904fa78b4ba.jpg,ground,True,ground,0.7964025,electric,0.18220782,water,0.10982295
+525,data/Rhyhorn/00000051.png,ground,True,ground,0.6584254,bug,0.08519734,electric,0.07302132
+526,data/Mew/bdff85952af64f4f86ef429880d7b237.jpg,psychic,True,psychic,0.69256896,bug,0.33279917,flying,0.3165509
+527,data/Vulpix/00000045.jpg,fire,True,fire,0.60182613,flying,0.3647952,normal,0.22540128
+528,data/Charmander/00000122.jpg,fire,False,electric,0.38699353,flying,0.35061774,fire,0.24351652
+529,data/Tangela/e516dc7a65ec423f9d4e6b6806ab6f02.jpg,grass,True,grass,0.93812025,flying,0.45960182,poison,0.050876148
+530,data/Rhydon/00000057.jpg,ground,True,ground,0.5513635,water,0.3143825,flying,0.03958541
+531,data/Metapod/00000071.jpg,bug,True,bug,0.8052239,grass,0.48353937,poison,0.44717953
+532,data/Slowbro/2c68a60b38dc4e70950cc014c2ab0565.jpg,"psychic, water",False,normal,0.7124393,psychic,0.5986512,water,0.5018836
+533,data/Charmander/00000015.png,fire,True,fire,0.9382776,flying,0.23368755,water,0.024860773
+534,data/Cubone/9796b18475b049368b12b911af4fc694.jpg,ground,False,normal,0.5430575,ground,0.32995173,water,0.06204541
+535,data/Growlithe/00000081.jpg,fire,True,fire,0.76251847,flying,0.18831283,normal,0.15864708
+536,data/Pidgey/00000157.gif,"flying, normal",True,flying,0.73085105,normal,0.70503247,fire,0.36137846
+537,data/Growlithe/00000062.png,fire,False,fire,0.44825912,flying,0.39950618,normal,0.3025513
+538,data/Poliwag/00000180.jpg,water,True,water,0.6588868,poison,0.22404665,grass,0.18081175
+539,data/Kakuna/00000044.jpg,"bug, poison",False,water,0.44263816,bug,0.3211143,poison,0.23928829
+540,data/Charmander/00000075.jpg,fire,True,fire,0.6561454,flying,0.29391745,water,0.0892426
+541,data/Poliwhirl/00000134.jpg,water,False,poison,0.5556052,grass,0.23803383,flying,0.22973579
+542,data/Beedrill/00000107.png,"bug, poison",False,bug,0.46056703,poison,0.31062865,psychic,0.15888007
+543,data/Grimer/00000000.png,poison,True,poison,0.67417896,ground,0.1964387,psychic,0.10888458
+544,data/Caterpie/00000186.jpg,bug,True,bug,0.8091118,poison,0.2761698,flying,0.15616712
+545,data/Weezing/45cc0e79534f44f99e8cb5d41c211edd.jpg,poison,True,poison,0.69293445,ground,0.13505767,normal,0.119100906
+546,data/Starmie/00000057.png,"psychic, water",True,psychic,0.8435017,water,0.64570814,poison,0.17299302
+547,data/Jigglypuff/5a2806b7efc1448e84d597d4fa694e72.jpeg,normal,True,normal,0.769259,psychic,0.19887342,flying,0.069047354
+548,data/Rhydon/2db771531f0544e8b2d301cc750443f7.jpg,ground,False,normal,0.71661925,flying,0.42876783,electric,0.102680676
+549,data/Charmander/2ce9f8fdf43b4d41be57e736bf80eb8f.jpg,fire,True,fire,0.8146531,bug,0.11443538,flying,0.07843786
+550,data/Vulpix/00000069.png,fire,True,fire,0.6523085,water,0.20347463,flying,0.13980386
+551,data/Vaporeon/00000112.jpg,water,True,water,0.7646776,flying,0.3335566,poison,0.08111069
+552,data/Weezing/00000003.png,poison,False,poison,0.3464733,water,0.34304652,ground,0.12439326
+553,data/Zapdos/00000068.jpg,"electric, flying",False,psychic,0.680341,ground,0.29719087,flying,0.08294442
+554,data/Metapod/00000100.jpg,bug,False,bug,0.99310166,flying,0.67230654,psychic,0.02523565
+555,data/Exeggcute/00000001.gif,"grass, psychic",False,normal,0.5344177,psychic,0.512176,water,0.31650996
+556,data/Jolteon/e4884100758042c2a11a2dcf6122fde7.jpg,electric,False,electric,0.38540044,flying,0.24018033,psychic,0.13186468
+557,data/Mewtwo/9e2540eb00e14120a9888734db143af6.jpg,psychic,False,poison,0.88408864,ground,0.09113687,normal,0.041888136
+558,data/Beedrill/00000131.png,"bug, poison",False,poison,0.4465196,bug,0.4393663,water,0.2118353
+559,data/Kingler/00000013.jpg,water,False,water,0.307417,normal,0.23972966,bug,0.23776168
+560,data/Geodude/b9843386fdef42acab6cb4f0c5c613c4.jpg,ground,True,ground,0.870604,normal,0.060571656,water,0.05828106
+561,data/Zapdos/00000075.png,"electric, flying",True,electric,0.8837696,flying,0.610913,psychic,0.15771806
+562,data/Kangaskhan/00000066.png,normal,True,normal,0.58419913,ground,0.43605766,flying,0.12068224
+563,data/Lickitung/2eec0bb985ec494c844c999c83800a93.jpg,normal,False,normal,0.558483,water,0.51044554,psychic,0.49929875
+564,data/Gastly/d2282af7b1984736a3f51d0ad49c715d.jpg,poison,True,poison,0.68920195,water,0.12975945,psychic,0.114675395
+565,data/Vileplume/00000078.jpg,"grass, poison",True,poison,0.9379971,grass,0.78598124,bug,0.012674473
+566,data/Rattata/ae47f456f65b40779e91ea714f018ada.jpg,normal,False,psychic,0.54354143,normal,0.3143989,bug,0.26295176
+567,data/Arbok/00000201.png,poison,False,psychic,0.74399894,poison,0.26343662,water,0.14498825
+568,data/Ivysaur/00000085.jpg,"grass, poison",True,poison,0.9884697,grass,0.9857528,flying,0.044794213
+569,data/Venusaur/d5bbaac503a64d80a21b7656d8cb16bf.jpg,"grass, poison",True,grass,0.88605183,poison,0.7925191,bug,0.110964954
+570,data/Clefable/00000052.jpg,normal,True,normal,0.92462385,psychic,0.10905591,water,0.072063245
+571,data/Ponyta/564a1c4959974f36b5a25610f7e81f42.jpg,fire,True,fire,0.95157766,flying,0.27896476,normal,0.027624432
+572,data/Squirtle/00000186.jpg,water,True,water,0.6629161,poison,0.45175353,flying,0.20396256
+573,data/Ponyta/7e11a4f33fc0445ab0a7b911fa137cab.jpg,fire,False,flying,0.36915842,water,0.33170292,fire,0.18883312
+574,data/Pinsir/00000020.jpg,bug,False,ground,0.32182217,bug,0.21900153,normal,0.13447587
+575,data/Pikachu/00000109.jpg,electric,True,electric,0.7387043,psychic,0.13773526,flying,0.12222646
+576,data/Tangela/b145ff36cc8c4d20a2fd6fa64aa874ed.jpg,grass,False,flying,0.70607233,poison,0.26799706,grass,0.16304916
+577,data/Gengar/00000112.jpg,poison,True,poison,0.864764,ground,0.0683034,flying,0.054836202
+578,data/Voltorb/7f04c570a6474180b994d2dde5014ac0.jpg,electric,True,electric,0.85594136,grass,0.38329756,poison,0.10314511
+579,data/Staryu/00000121.png,water,False,ground,0.49916667,normal,0.2803353,flying,0.11341734
+580,data/Charmander/00000063.png,fire,False,fire,0.49043253,flying,0.4888437,water,0.044993814
+581,data/Mewtwo/0a7579ae4a49498aa566615a818e2bea.jpg,psychic,False,psychic,0.4689997,poison,0.19824767,water,0.1312086
+582,data/Porygon/296a0031e23645af808be2a75cac9000.jpg,normal,True,normal,0.5866462,psychic,0.1099071,poison,0.10663087
+583,data/Growlithe/00000024.jpg,fire,False,normal,0.49005973,flying,0.4556974,fire,0.41008478
+584,data/Tangela/00000052.jpg,grass,True,grass,0.9540246,water,0.16343294,flying,0.15391697
+585,data/Voltorb/00000236.png,electric,True,electric,0.876345,grass,0.074440636,poison,0.07389393
+586,data/Vulpix/b6ab9218c72443cda5dcf1c145ecbc74.jpg,fire,False,fire,0.4065617,ground,0.27509165,flying,0.22390203
+587,data/Wartortle/00000042.jpg,water,True,water,0.8326379,flying,0.0785145,ground,0.05108822
+588,data/Zapdos/00000034.png,"electric, flying",False,flying,0.41511235,electric,0.2525064,psychic,0.14614382
+589,data/Farfetchd/9c0ff304bc9648089506dc89b5732747.jpg,"flying, normal",False,normal,0.5949741,ground,0.39064723,flying,0.2549157
+590,data/Poliwag/00000075.png,water,True,water,0.7753908,bug,0.12730795,psychic,0.112753436
+591,data/Aerodactyl/79f94a276b9a4e06b4884c3b77ef4622.jpg,flying,False,poison,0.33127496,normal,0.18728513,ground,0.13362616
+592,data/Weedle/3ccb81e46f2d40639c839fab244996be.jpg,"bug, poison",False,normal,0.58813614,flying,0.26863962,ground,0.16715832
+593,data/Graveler/00000144.gif,ground,False,ground,0.47521245,normal,0.22317569,flying,0.12640786
+594,data/Pidgeot/00000018.png,"flying, normal",False,fire,0.7958356,flying,0.1742607,normal,0.11334839
+595,data/Arcanine/02c4ebeecb2246d082b8bfa6f06b0e24.jpg,fire,False,normal,0.38826007,ground,0.21388404,fire,0.1095586
+596,data/Omanyte/9c3cf9a1f8ae4c39a50497a48e6a9ea9.jpg,water,True,water,0.93113834,flying,0.045965705,ground,0.040109567
+597,data/Bulbasaur/00000066.jpg,"grass, poison",False,bug,0.98513514,flying,0.3282441,grass,0.0380697
+598,data/Arcanine/d2287ff780964c41994e9f5ce6690d0c.jpg,fire,False,ground,0.39566916,normal,0.30685225,flying,0.2052025
+599,data/Marowak/00000053.png,ground,False,water,0.20965388,flying,0.15252876,ground,0.091133416
+600,data/Clefairy/6f2d93eccde941e6802ab22794646a5e.jpg,normal,True,normal,0.9559577,psychic,0.16808026,grass,0.050811145
+601,data/Poliwag/38194a8e2c984c2db753b63c09175dba.jpg,water,False,water,0.44038165,flying,0.2755734,poison,0.20294425
+602,data/Ninetales/00000036.jpg,fire,True,fire,0.8740409,flying,0.19323237,normal,0.18973204
+603,data/Gyarados/00000155.jpg,"flying, water",True,water,0.6491813,flying,0.6291193,normal,0.092354596
+604,data/Exeggcute/e3c554e220a84749a356c567f806ff34.jpg,"grass, psychic",False,psychic,0.7009042,normal,0.48678634,grass,0.22071974
+605,data/Fearow/00000114.jpg,"flying, normal",True,flying,0.63674855,normal,0.6339015,ground,0.15761453
+606,data/Farfetchd/cdcfe5ed91c14a2cab2c462cee77b022.jpg,"flying, normal",False,normal,0.43021184,flying,0.24250565,ground,0.18842228
+607,data/Wigglytuff/2348108df6594c8c92bc4ade315ce3a7.jpg,normal,True,normal,0.6601834,psychic,0.32229805,ground,0.07236979
+608,data/Slowpoke/7681e33e437643969d566045d497eabf.jpg,"psychic, water",False,water,0.56398976,normal,0.37183,psychic,0.25108403
+609,data/Flareon/00000168.png,fire,True,fire,0.8034963,flying,0.2426828,psychic,0.08883267
+610,data/Gengar/00000064.jpg,poison,True,poison,0.72781086,bug,0.121125475,normal,0.1089435
+611,data/Electabuzz/870e53ef825b492e800f095ca2608fe2.jpg,electric,False,psychic,0.45182493,electric,0.43906444,ground,0.09486939
+612,data/Kadabra/00000053.jpg,psychic,False,psychic,0.41512302,electric,0.14433032,ground,0.13491835
+613,data/Graveler/00000112.png,ground,True,ground,0.51156807,water,0.20622416,electric,0.081808805
+614,data/Magnemite/00000030.jpg,electric,False,water,0.55846065,flying,0.43946138,bug,0.07920046
+615,data/Seaking/00000068.jpg,water,False,flying,0.43607503,normal,0.40634662,water,0.16449375
+616,data/Dragonite/fbf850a09e37408a904ca5ef79c88379.jpg,flying,True,flying,0.59362894,normal,0.39960778,water,0.21740387
+617,data/Rhyhorn/00000132.jpg,ground,True,ground,0.88399476,electric,0.19193803,water,0.07630413
+618,data/Jigglypuff/00000090.png,normal,True,normal,0.9501125,water,0.25775453,psychic,0.11107689
+619,data/Charmeleon/00000112.png,fire,True,fire,0.9361311,water,0.10144006,normal,0.05156725
+620,data/Farfetchd/6e795b11c9a749c38884e32c0b84f465.jpg,"flying, normal",False,psychic,0.58321685,electric,0.24668534,flying,0.1127955
+621,data/Wigglytuff/00000100.jpg,normal,True,normal,0.76118577,psychic,0.17935422,poison,0.04345336
+622,data/Clefairy/00000213.gif,normal,False,water,0.29650545,electric,0.2867512,flying,0.25533825
+623,data/Charmander/10.png,fire,True,fire,0.99063,flying,0.027793605,ground,0.00762643
+624,data/Seadra/00000212.jpg,water,True,water,0.7062699,flying,0.1343256,poison,0.09386208
+625,data/Clefairy/00000129.jpg,normal,True,normal,0.9400004,water,0.14473487,psychic,0.12841076
+626,data/Nidorino/00000065.png,poison,True,poison,0.9120924,ground,0.45111915,normal,0.31340942
+627,data/Weedle/4dc265f89d31465081842feb2f990f89.jpg,"bug, poison",False,normal,0.8385173,flying,0.15254153,psychic,0.04398896
+628,data/Beedrill/bd38311ecb014fd993a52108475d9d6c.jpg,"bug, poison",False,poison,0.4086851,flying,0.21374215,bug,0.20560408
+629,data/Wartortle/00000010.png,water,True,water,0.93423796,flying,0.11932858,ground,0.052109096
+630,data/Charizard/12bf89f7789c449a91e02cd1f4378c60.jpg,"fire, flying",True,flying,0.72705394,fire,0.57465136,normal,0.19917837
+631,data/Poliwhirl/00000217.jpg,water,True,water,0.8960638,bug,0.0686139,ground,0.04704889
+632,data/Venusaur/46d8c58469424855b66d13890442bd69.jpg,"grass, poison",True,grass,0.9974697,poison,0.99658674,normal,0.017611101
+633,data/Geodude/db9614664bee418bad5cb752c0423ec8.jpg,ground,False,flying,0.22353573,ground,0.21207502,normal,0.09468348
+634,data/Pikachu/00000135.jpg,electric,True,electric,0.58688843,flying,0.2774281,poison,0.084866494
+635,data/Vaporeon/4b961c6478e847a9affdce4c722de4b4.jpg,water,True,water,0.9252512,flying,0.25791752,bug,0.01895367
+636,data/Venonat/34898698d10e493dbcf301c805b7ff01.jpg,"bug, poison",False,fire,0.45338145,bug,0.22564854,ground,0.1817395
+637,data/Exeggcute/fb1282412bb14d09bf60321a9f8ae757.jpg,"grass, psychic",True,psychic,0.6628695,grass,0.5538194,normal,0.34782237
+638,data/Alakazam/00000233.jpg,psychic,True,psychic,0.72708553,ground,0.26735958,electric,0.12360679
+639,data/Magnemite/c1313aa502924a22a3cd98e88910d3d9.jpg,electric,False,flying,0.3294278,water,0.15970273,electric,0.11479863
+640,data/Pidgey/00000130.png,"flying, normal",False,flying,0.48110783,normal,0.368853,psychic,0.3679777
+641,data/Slowpoke/00000003.jpg,"psychic, water",True,water,0.74556065,psychic,0.6900122,normal,0.25681168
+642,data/Magneton/00000102.jpg,electric,False,water,0.35642096,ground,0.20184915,electric,0.08199819
+643,data/Gyarados/00000212.png,"flying, water",True,water,0.7806286,flying,0.55246246,bug,0.08890054
+644,data/Magmar/00000022.png,fire,True,fire,0.6191827,flying,0.37788963,water,0.11391984
+645,data/Gloom/04da1d3c73c4477cb1a102f9c5cbb634.jpg,"grass, poison",True,poison,0.6438999,grass,0.6404194,flying,0.16708006
+646,data/Ivysaur/00000004.png,"grass, poison",True,poison,0.9878113,grass,0.98448396,water,0.018777091
+647,data/Haunter/5fffb1582d1348189146b68d376287d4.jpg,poison,True,poison,0.7391352,psychic,0.07217082,ground,0.06220901
+648,data/Weedle/db3c6df8f84a4e1bb94ebd96446b0f4f.jpg,"bug, poison",False,psychic,0.28868827,normal,0.16681889,flying,0.12191179
+649,data/Vileplume/da1300e0aa2349418cdb96a9b75616c6.jpg,"grass, poison",True,grass,0.9527078,poison,0.8996002,electric,0.07793629
+650,data/Gloom/5c2e9715a23745b4a9bce098534dc339.jpg,"grass, poison",True,poison,0.9756255,grass,0.96000683,flying,0.07866776
+651,data/Raticate/00000062.jpg,normal,False,ground,0.80539924,normal,0.24707428,bug,0.09870975
+652,data/Electabuzz/00000201.jpg,electric,False,electric,0.49039888,flying,0.25780714,ground,0.23238985
+653,data/Ninetales/00000131.png,fire,False,fire,0.3313728,flying,0.1781751,ground,0.14929873
+654,data/Cubone/00000076.png,ground,False,fire,0.8085936,normal,0.26395983,water,0.22259225
+655,data/Meowth/0fcf0bdef1704f7fac6638712ecd5ac9.jpg,normal,True,normal,0.6288682,flying,0.3904913,fire,0.24127246
+656,data/Magmar/00000098.png,fire,True,fire,0.8435915,flying,0.22170599,ground,0.090773635
+657,data/Voltorb/00000131.jpg,electric,True,electric,0.9253354,grass,0.34889084,poison,0.13399833
+658,data/Raichu/00000221.png,electric,False,flying,0.36371383,normal,0.25625554,fire,0.24804397
+659,data/Poliwag/00000176.png,water,True,water,0.7017406,flying,0.34476215,poison,0.049679358
+660,data/Dugtrio/fefab80309c249e390dab385c70711a4.jpg,ground,True,ground,0.60343826,normal,0.24550015,bug,0.17525223
+661,data/Raichu/112b4ea586524a0aa703b791c9141c99.jpg,electric,False,electric,0.42440563,poison,0.15486702,psychic,0.115839876
+662,data/Dragonite/d02703a04d964c48b8f56c2e33121f43.jpg,flying,False,normal,0.6616051,flying,0.37507072,ground,0.14104216
+663,data/Gyarados/00000232.jpg,"flying, water",False,fire,0.89607763,flying,0.100010335,water,0.041744184
+664,data/Blastoise/45ad079480cf4fcd9bf78c58770d4f65.jpg,water,False,ground,0.51085114,normal,0.46353152,water,0.17194992
+665,data/Porygon/c33237094e5b45fba0d207ce928ccefa.jpg,normal,True,normal,0.6009558,psychic,0.18975171,poison,0.061757915
+666,data/Golduck/00000162.png,water,False,water,0.7751447,flying,0.5169324,bug,0.030969776
+667,data/Moltres/00000127.png,"fire, flying",True,fire,0.93811756,flying,0.57425445,normal,0.036168475
+668,data/Nidorino/9625cff26e3c470e8eec80b269c52f72.jpg,poison,True,poison,0.92336047,normal,0.25017846,bug,0.1426822
+669,data/Moltres/00000056.jpg,"fire, flying",False,fire,0.9354365,flying,0.32105216,normal,0.11564708
+670,data/Aerodactyl/00000096.jpg,flying,False,flying,0.47527876,poison,0.3671216,psychic,0.2796722
+671,data/Staryu/00000138.jpg,water,False,ground,0.43887743,water,0.17314908,psychic,0.1041103
+672,data/Venusaur/944a559a332740268bf58ae18b23a50e.jpg,"grass, poison",True,poison,0.775003,grass,0.527864,bug,0.1405972
+673,data/Clefable/959137f1fad94601aa1f4684c10599e8.jpg,normal,True,normal,0.9588433,psychic,0.05529066,water,0.044932667
+674,data/Dugtrio/730e822f53494782884f5dc389b32556.jpg,ground,False,bug,0.5430667,ground,0.49479637,grass,0.4911546
+675,data/Spearow/00000064.png,"flying, normal",False,flying,0.48016292,water,0.33183947,normal,0.27217335
+676,data/Slowbro/e942a9683b5e4379b8c1223fe31636aa.jpg,"psychic, water",False,water,0.81965435,normal,0.7451224,psychic,0.519785
+677,data/Weedle/00000211.jpg,"bug, poison",False,electric,0.3316092,water,0.26259577,flying,0.15095665
+678,data/Nidoqueen/d889b030290041f3a1dd3948bc7fcd27.jpg,"ground, poison",False,grass,0.32727733,poison,0.2531099,ground,0.21867295
+679,data/Caterpie/81a42ca1becd453f86d1a6cf6e7ae6cd.jpg,bug,True,bug,0.9439433,poison,0.091873474,grass,0.038988605
+680,data/Pidgey/1d8cb8d609d149d7a6f177ea0b50f56c.jpg,"flying, normal",False,normal,0.59411174,flying,0.44865543,ground,0.18281467
+681,data/Abra/1788abb8b51f48509cfac8067bd99e14.jpg,psychic,True,psychic,0.8566638,electric,0.14103234,flying,0.040335685
+682,data/Pikachu/00000154.jpg,electric,False,electric,0.4875806,psychic,0.21648566,flying,0.13975056
+683,data/Electabuzz/deaa37cd91834928abd186d3ed66532b.jpg,electric,False,psychic,0.6207041,electric,0.4780061,flying,0.06893649
+684,data/Doduo/00000002.png,"flying, normal",False,normal,0.6060891,flying,0.4940846,water,0.18762638
+685,data/Pidgey/00000047.png,"flying, normal",False,fire,0.7375739,flying,0.3561736,normal,0.23186737
+686,data/Magmar/00000054.png,fire,True,fire,0.74269557,flying,0.21534847,water,0.094459
+687,data/Blastoise/d1aa969866ac4a93945c56439a480c50.jpg,water,True,water,0.62997156,flying,0.4007291,normal,0.17123497
+688,data/Hypno/00000062.png,psychic,False,psychic,0.37702408,poison,0.30321607,bug,0.24605872
+689,data/Oddish/00000083.png,"grass, poison",True,poison,0.99306595,grass,0.9837529,flying,0.027422411
+690,data/Wartortle/00000143.jpg,water,True,water,0.69547695,flying,0.12683366,ground,0.080747895
+691,data/Zapdos/00000107.jpg,"electric, flying",False,electric,0.7296059,flying,0.1780113,psychic,0.06467086
+692,data/Zapdos/00000119.jpg,"electric, flying",False,electric,0.28242844,psychic,0.25310674,flying,0.21048851
+693,data/Venomoth/00000034.png,"bug, poison",False,poison,0.70640916,grass,0.62932056,flying,0.40174967
+694,data/Hypno/0965b43428a5448b9ba66715eaf5d1cc.jpg,psychic,False,psychic,0.4618499,ground,0.3216713,water,0.13801855
+695,data/Beedrill/ff72c89a3cb0468f827eeafdfacac807.jpg,"bug, poison",False,poison,0.21499667,ground,0.12836578,electric,0.12200461
+696,data/Gyarados/d88c49b549fa4c4b96ebb01b91197955.jpg,"flying, water",False,water,0.79602414,flying,0.20769414,bug,0.061344642
+697,data/Weezing/58e0a7b110f340958a69ff964fc0930c.jpg,poison,True,poison,0.75355804,ground,0.29882756,normal,0.18078466
+698,data/Scyther/dfd0d359cd7b49abba04ccff91198eb3.jpg,"bug, flying",False,poison,0.9567265,grass,0.7126513,bug,0.21712087
+699,data/Beedrill/00000099.jpg,"bug, poison",False,flying,0.39118055,fire,0.250324,normal,0.1612908
+700,data/Snorlax/0ba65a40b17147a394dc3b860dc95c46.jpg,normal,True,normal,0.5445091,water,0.4316036,flying,0.21230392
+701,data/Poliwag/00000217.gif,water,False,water,0.7307216,flying,0.6989458,bug,0.30787376
+702,data/Pidgeotto/00000121.jpg,"flying, normal",True,flying,0.93257594,normal,0.782994,psychic,0.26216555
+703,data/Wartortle/00000007.png,water,True,water,0.5646349,bug,0.3000546,poison,0.22655308
+704,data/Vulpix/00000047.png,fire,True,fire,0.71053827,flying,0.27256647,normal,0.102337725
+705,data/Mewtwo/00000006.jpg,psychic,True,psychic,0.6060059,bug,0.24090034,poison,0.17892154
+706,data/Haunter/00000081.png,poison,True,poison,0.5899027,normal,0.24738528,ground,0.12912358
+707,data/Nidorino/00000113.jpg,poison,False,normal,0.43824467,poison,0.28945583,bug,0.16872264
+708,data/Caterpie/c7056958ac114249825249a0d817d6fe.jpg,bug,True,bug,0.94683856,flying,0.13317674,poison,0.11902661
+709,data/Pikachu/43.png,electric,False,electric,0.4038928,flying,0.30518672,fire,0.20542502
+710,data/Raichu/351d2718b0f24c0c8d5ff230c91ee2af.jpg,electric,False,normal,0.6422542,flying,0.30163452,water,0.15023042
+711,data/Caterpie/791a9d7c91aa43e682e3d1f9413a3231.jpg,bug,True,bug,0.9917339,flying,0.053258825,poison,0.051615994
+712,data/Alakazam/00000207.png,psychic,True,psychic,0.79352444,electric,0.23445351,bug,0.1301012
+713,data/Sandslash/00000117.jpg,ground,False,psychic,0.71605086,ground,0.35623303,bug,0.08298175
+714,data/Spearow/00000095.png,"flying, normal",True,normal,0.8442429,flying,0.7506888,water,0.10368232
+715,data/Magmar/540ec379d7504d5ca0233ddcaaec8e62.jpg,fire,True,fire,0.6640704,flying,0.16365297,normal,0.07237739
+716,data/Flareon/00000030.png,fire,True,fire,0.88354045,flying,0.152015,normal,0.07178817
+717,data/Lapras/b2cfe9f9c85b4bc2a29223a96ac8813a.jpg,water,True,water,0.8402343,flying,0.29858068,poison,0.1340437
+718,data/Charizard/00000048.jpg,"fire, flying",True,flying,0.7272309,fire,0.5499442,normal,0.22604948
+719,data/Growlithe/1dfce03ef12447ca861ab17183df13c3.jpg,fire,True,fire,0.6086577,flying,0.25781807,normal,0.1737368
+720,data/Nidoking/00000062.png,"ground, poison",False,poison,0.50828755,psychic,0.29493684,ground,0.10623586
+721,data/Growlithe/00000118.jpg,fire,True,fire,0.89962596,flying,0.13020615,ground,0.055844694
+722,data/Raichu/00000012.jpg,electric,False,normal,0.3505951,flying,0.25621337,fire,0.24323897
+723,data/Lickitung/00000005.gif,normal,True,normal,0.73372036,water,0.32656717,psychic,0.26970938
+724,data/Charmeleon/00000102.jpg,fire,True,fire,0.98019916,flying,0.25301793,water,0.0450798
+725,data/Slowpoke/00000029.gif,"psychic, water",False,water,0.53047425,psychic,0.2751315,normal,0.06938415
+726,data/Parasect/00000053.jpg,"bug, grass",False,bug,0.5669863,poison,0.3572442,psychic,0.117199086
+727,data/Alakazam/00000121.gif,psychic,True,psychic,0.56284463,bug,0.1775702,poison,0.100126445
+728,data/Pikachu/00000235.png,electric,False,electric,0.37650993,psychic,0.25221285,flying,0.09180786
+729,data/Rhyhorn/00000121.jpg,ground,True,ground,0.79921293,water,0.13430908,poison,0.092899814
+730,data/Squirtle/00000140.png,water,True,water,0.9277798,flying,0.18901756,normal,0.05823347
+731,data/Pidgeot/00000006.jpg,"flying, normal",False,normal,0.4453421,flying,0.27613932,psychic,0.26227528
+732,data/Electrode/972a317b92ac4e9785e58bcd030e0624.jpg,electric,True,electric,0.81456226,psychic,0.10818023,water,0.10063565
+733,data/Moltres/00000113.jpg,"fire, flying",False,flying,0.40709138,fire,0.3686901,normal,0.3004189
+734,data/Diglett/bce1e59c5e6a4d6c9965e7e9685056f0.jpg,ground,False,bug,0.5167171,ground,0.48439205,grass,0.43756917
+735,data/Articuno/4d0ff4464c9943a2ad6b80e90466ad29.jpg,flying,False,water,0.826735,flying,0.4254843,bug,0.048320726
+736,data/Diglett/00000199.jpg,ground,True,ground,0.82223034,normal,0.18678637,bug,0.16618827
+737,data/Magneton/c6c96b4e4a4a4690aec4d5f9b1425edf.jpg,electric,False,water,0.6616604,electric,0.30877644,flying,0.041155577
+738,data/Slowbro/Screen Shot 2019-08-12 at 8.35.37 PM.png,"psychic, water",False,normal,0.38187265,flying,0.22838503,water,0.13662748
+739,data/Kingler/e9eee4f784c24c49ab5031a152cd00b1.jpg,water,False,flying,0.4294356,water,0.392229,grass,0.2374269
+740,data/Pidgeot/00000135.png,"flying, normal",False,flying,0.46024722,water,0.2400656,normal,0.20924698
+741,data/Electabuzz/00000060.jpg,electric,False,psychic,0.62963533,bug,0.44925442,flying,0.19868498
+742,data/Rhydon/00000131.jpg,ground,False,psychic,0.27355322,ground,0.15435095,bug,0.14067987
+743,data/Raichu/00000185.gif,electric,True,electric,0.7785273,flying,0.35690147,normal,0.098917805
+744,data/Flareon/00000140.png,fire,True,fire,0.9614096,flying,0.20613389,normal,0.10775989
+745,data/Pidgeotto/ffce66bfdf0b4bafacce6c6478ad1174.jpg,"flying, normal",True,flying,0.90237176,normal,0.8938098,fire,0.10350001
+746,data/Snorlax/00000208.jpg,normal,True,normal,0.6536605,water,0.47694364,flying,0.11835874
+747,data/Lickitung/23781886a50c48bebd7558c2c5cbba17.jpg,normal,True,normal,0.9032453,water,0.1305161,psychic,0.07077583
+748,data/Eevee/00000095.png,normal,False,normal,0.80226016,flying,0.5026093,electric,0.088517666
+749,data/Nidorina/00000075.jpg,poison,False,water,0.6067597,poison,0.24730036,flying,0.19974738
+750,data/Farfetchd/00000147.png,"flying, normal",True,flying,0.5754621,normal,0.53174263,fire,0.16123456
+751,data/Mew/f9c97e39d2c94e1895b38f5bd85898d2.jpg,psychic,False,psychic,0.32040632,poison,0.19323069,normal,0.16433607
+752,data/Dugtrio/00000006.png,ground,True,ground,0.6701659,normal,0.301348,bug,0.16844043
+753,data/Rattata/4e215edc7e0543c4a0f0aafcc14dcd31.jpg,normal,False,poison,0.32666042,normal,0.26386806,psychic,0.20648783
+754,data/MrMime/4ea9ea961ac643b39a07d65e337d9781.jpg,psychic,False,psychic,0.48726273,water,0.39336595,bug,0.3179735
+755,data/Diglett/d86393465e6242128ee91f5cf0097cfa.jpg,ground,False,normal,0.29764435,ground,0.18453164,psychic,0.11880043
+756,data/Ivysaur/12e8fec79243492bafd83c16212e79c2.jpg,"grass, poison",False,grass,0.7280056,flying,0.44719434,poison,0.4180477
+757,data/Pidgeotto/00000011.jpg,"flying, normal",True,flying,0.8608901,normal,0.8243591,fire,0.17260692
+758,data/Zapdos/7a63f55b762a4fe7b6cd92f17ea22ebf.jpg,"electric, flying",False,electric,0.6527661,flying,0.27250525,psychic,0.20355964
+759,data/Kabutops/00000011.jpg,water,False,psychic,0.3907265,bug,0.32631317,water,0.30889368
+760,data/Ninetales/4cc1a3042ced4d50860f55c2a2fe1d15.jpg,fire,True,fire,0.57061994,normal,0.39209357,flying,0.28650898
+761,data/Parasect/00000033.jpg,"bug, grass",False,bug,0.5669863,poison,0.3572442,psychic,0.117199086
+762,data/Rhydon/00000006.png,ground,True,ground,0.5114011,poison,0.14880316,water,0.13662001
+763,data/Butterfree/00000031.png,"bug, flying",True,bug,0.8760919,flying,0.8674725,water,0.31077412
+764,data/Raichu/9c58f55115744483a59899a4614cf61c.jpg,electric,False,ground,0.36696,psychic,0.20763116,normal,0.17039384
+765,data/Pinsir/da86ac42ddd14baca19bd2d3e769bf07.jpg,bug,False,psychic,0.4046477,normal,0.3743764,bug,0.27174714
+766,data/Mewtwo/00000008.jpeg,psychic,False,bug,0.33310518,psychic,0.32871464,poison,0.184073
+767,data/Nidorina/00000023.png,poison,False,normal,0.3712495,psychic,0.26998445,poison,0.1614606
+768,data/Gastly/00000090.png,poison,True,poison,0.6132483,water,0.18322825,psychic,0.13148794
+769,data/Gastly/c9886b9a065e43feb36c202b2fdadcd9.jpg,poison,False,normal,0.32555586,bug,0.18370081,water,0.17954555
+770,data/Electrode/6a6b6d9713d747e88457eb20814907aa.jpg,electric,False,psychic,0.3447495,poison,0.23611854,bug,0.20689104
+771,data/Kadabra/00000003.png,psychic,True,psychic,0.63702947,electric,0.16183557,flying,0.1005965
+772,data/Pikachu/00000095.jpg,electric,False,psychic,0.4301219,fire,0.33367845,bug,0.17581558
+773,data/Pikachu/00000140.png,electric,False,electric,0.4947682,psychic,0.16242789,flying,0.09013443
+774,data/Vulpix/3aa313a9824f4417b7adb646718f7d95.jpg,fire,False,flying,0.30402002,normal,0.28509936,ground,0.1710709
+775,data/Horsea/00000153.jpg,water,False,flying,0.48906037,bug,0.38508573,water,0.3816762
+776,data/Oddish/fdd8615c5dc242b28324839b200f569f.jpg,"grass, poison",True,grass,0.97880703,poison,0.96676713,flying,0.08197204
+777,data/Lapras/1f6829c970e84690af5f9a7efd2ab863.jpg,water,True,water,0.587015,flying,0.32513383,bug,0.1790479
+778,data/Poliwag/3a08d093f00048c4a087befdf8118358.jpg,water,True,water,0.9594178,flying,0.10683555,bug,0.04705014
+779,data/Mew/9c28772844b64d4ebc5f1989e9a47cfb.jpg,psychic,False,normal,0.72552294,psychic,0.5127611,water,0.05190102
+780,data/Pidgeot/00000103.png,"flying, normal",False,flying,0.43847668,normal,0.34619808,water,0.2639601
+781,data/Shellder/17d97ca892964c718bec6e1381d1a8f4.jpg,water,True,water,0.55884135,poison,0.33280975,psychic,0.088299416
+782,data/Growlithe/00000173.jpg,fire,False,water,0.31672755,flying,0.2483495,electric,0.21109642
+783,data/Rapidash/03b0bedee9084435abc1f491748cf35e.jpg,fire,True,fire,0.9967548,flying,0.058870792,water,0.0046155457
+784,data/Pidgeot/00000005.jpg,"flying, normal",True,normal,0.8373826,flying,0.7298898,fire,0.292077
+785,data/Pikachu/00000069.jpg,electric,True,electric,0.58101755,flying,0.3863731,psychic,0.21698946
+786,data/Articuno/00000009.png,flying,False,flying,0.35900122,water,0.21466413,poison,0.16648024
+787,data/Wigglytuff/e3190b78e9674423b05fac3d18d240df.jpg,normal,True,normal,0.9497795,psychic,0.11578589,grass,0.023918588
+788,data/Zapdos/81b99d88582341388e808f18993e24bf.jpg,"electric, flying",False,flying,0.4102942,water,0.23476227,psychic,0.21409436
+789,data/Farfetchd/00000061.jpg,"flying, normal",False,normal,0.522497,flying,0.49050424,ground,0.33941436
+790,data/Aerodactyl/25d15a304c354f3e8064249cf704370d.jpg,flying,False,poison,0.4566278,flying,0.26895365,bug,0.2125675
+791,data/Pidgeotto/00000204.jpg,"flying, normal",False,bug,0.49742255,flying,0.48881307,psychic,0.46430534
+792,data/MrMime/db68d422b88e47488bf26e86dae34ac0.jpg,psychic,True,psychic,0.55405444,water,0.3076269,normal,0.16578954
+793,data/Nidoqueen/0c447416346d46a2a81282a69fd84885.jpg,"ground, poison",False,water,0.6104059,flying,0.19817282,normal,0.1364901
+794,data/Golbat/00000025.jpg,"flying, poison",True,poison,0.9204645,flying,0.7336756,bug,0.14483136
+795,data/Koffing/00000005.png,poison,True,poison,0.65814435,psychic,0.17637004,bug,0.17440888
+796,data/Ninetales/00000116.jpg,fire,False,electric,0.39188406,fire,0.24985509,flying,0.19989139
+797,data/Gastly/00000031.png,poison,True,poison,0.746681,bug,0.29579607,water,0.25170362
+798,data/Arcanine/783fce6754e74155a6bf8484c0cc2646.jpg,fire,False,ground,0.37858403,normal,0.24048525,fire,0.23536502
+799,data/Ninetales/c91af409d7594d6892bf7d11f89cd386.jpg,fire,False,psychic,0.8448877,water,0.092807174,flying,0.051875345
+800,data/Snorlax/080131fb7ca443ff8b2a8f75ee13ea72.jpg,normal,True,normal,0.5734053,water,0.38682333,flying,0.1695433
+801,data/Lickitung/00000017.png,normal,False,normal,0.47895148,psychic,0.26719183,water,0.2480399
+802,data/Golduck/00000202.jpg,water,True,water,0.606739,flying,0.31868094,poison,0.089728504
+803,data/Charizard/00000171.png,"fire, flying",False,flying,0.69390297,fire,0.25898522,normal,0.17899384
+804,data/Charmeleon/00000048.png,fire,True,fire,0.9727904,water,0.06740419,normal,0.039073855
+805,data/Gyarados/00000063.png,"flying, water",False,water,0.94194806,flying,0.25005946,bug,0.07287372
+806,data/Raichu/5206a0d3609b440c9ec5089e2a7833c2.jpg,electric,False,normal,0.4480811,ground,0.28845146,flying,0.24988416
+807,data/Zapdos/00000053.png,"electric, flying",False,electric,0.5976802,flying,0.3886662,psychic,0.13549824
+808,data/Eevee/00000241.jpg,normal,True,normal,0.5993046,flying,0.4277569,ground,0.21142638
+809,data/Drowzee/00000115.jpg,psychic,True,psychic,0.73236495,bug,0.2565521,poison,0.17266268
+810,data/Porygon/5e68029f22454b589d4494a9381ee868.jpg,normal,True,normal,0.70673066,poison,0.19297828,flying,0.11201725
+811,data/Pikachu/00000035.jpg,electric,False,normal,0.5735084,flying,0.48638678,electric,0.15690222
+812,data/Exeggutor/00000116.png,"grass, psychic",False,ground,0.56436116,normal,0.31285173,bug,0.18132596
+813,data/Arcanine/00000100.jpg,fire,True,fire,0.99044424,flying,0.029540734,normal,0.0063309437
+814,data/Charmeleon/00000100.png,fire,True,fire,0.71767455,water,0.16279548,flying,0.07218756
+815,data/Metapod/8570dc0a07da410e935351eb6b9886a4.jpg,bug,True,bug,0.97496563,flying,0.370856,poison,0.0684791
+816,data/Cloyster/00000065.png,water,False,poison,0.24470839,water,0.19835013,flying,0.13748875
+817,data/Ponyta/00000095.jpg,fire,False,water,0.43813115,fire,0.42873576,electric,0.17417367
+818,data/Drowzee/00000209.jpg,psychic,True,psychic,0.88004375,ground,0.067289524,water,0.060786895
+819,data/Vaporeon/c5c55a0d0b714de7a6f6ed503294725a.jpg,water,False,flying,0.38964015,water,0.25343317,poison,0.08253419
+820,data/Pikachu/5.png,electric,True,electric,0.67681175,psychic,0.13477193,flying,0.10654597
+821,data/Geodude/00000004.png,ground,True,ground,0.7172268,bug,0.22703299,normal,0.104999356
+822,data/Pikachu/00000054.png,electric,True,electric,0.6551511,flying,0.13505957,psychic,0.086548135
+823,data/Raticate/00000111.png,normal,True,normal,0.8029556,flying,0.3369516,water,0.08102545
+824,data/Growlithe/0aa3327683b240b290123c4c4fe35597.jpg,fire,True,fire,0.5824733,normal,0.4721577,flying,0.17420968
+825,data/Moltres/d19de7b90ff547e39ee36e172d4625e1.jpg,"fire, flying",False,flying,0.53622586,electric,0.37723497,fire,0.34689596
+826,data/Omanyte/75db1dee528f4944bf016f9b6d6aaab7.jpg,water,False,ground,0.5095154,water,0.35374916,normal,0.33374807
+827,data/Pidgey/00000071.png,"flying, normal",False,normal,0.64154965,flying,0.4107505,ground,0.10535881
+828,data/Ninetales/38e92099c14a4b929da87f9a1aa9bce6.jpg,fire,True,fire,0.85515875,normal,0.2520501,flying,0.20292097
+829,data/Golbat/eddf88a402474d948184e6dea3589d29.jpg,"flying, poison",True,flying,0.9859608,poison,0.8888702,grass,0.06274697
+830,data/Butterfree/00000172.jpg,"bug, flying",False,bug,0.44980583,water,0.32814854,flying,0.23512003
+831,data/Fearow/00000096.png,"flying, normal",False,fire,0.4249365,flying,0.23982276,water,0.1379623
+832,data/Clefairy/00000103.jpg,normal,True,normal,0.9310134,water,0.35480613,psychic,0.3311966
+833,data/Poliwrath/00000096.png,water,True,water,0.9598236,flying,0.28509364,bug,0.036414023
+834,data/Staryu/70dcd6c12a004d858301a6e0feb9950a.jpg,water,False,ground,0.2597956,flying,0.20751403,electric,0.16767804
+835,data/Electabuzz/00000009.jpg,electric,False,psychic,0.5487838,electric,0.29514375,bug,0.24764057
+836,data/Pidgey/00000113.png,"flying, normal",False,electric,0.26279727,psychic,0.25445095,ground,0.24891452
+837,data/Charmeleon/00000104.jpg,fire,True,fire,0.8927054,water,0.2877204,flying,0.054624498
+838,data/Pidgeotto/bb1103db9e72481cad2279407b56f4bd.jpg,"flying, normal",False,normal,0.55973935,fire,0.4489244,flying,0.3773487
+839,data/Electabuzz/ea0aa4191db54089a0e6fc9559cd99fb.jpg,electric,True,electric,0.5300004,psychic,0.17772163,flying,0.12754092
+840,data/Chansey/00000011.png,normal,True,normal,0.9500587,psychic,0.18045194,water,0.074876525
+841,data/Voltorb/7c870a2696754f1f810bc11ad103756c.jpg,electric,True,electric,0.95028317,grass,0.18187451,poison,0.057754844
+842,data/Ivysaur/00000063.png,"grass, poison",True,grass,0.98889107,poison,0.9882523,bug,0.021001896
+843,data/Magmar/aa68c10ddb414cee902e4a3819da157f.jpg,fire,True,fire,0.885466,flying,0.13683195,bug,0.055768616
+844,data/Ponyta/00000016.png,fire,True,fire,0.9765144,normal,0.10552072,flying,0.08576503
+845,data/Magikarp/00000011.jpg,water,True,water,0.75791407,fire,0.24410634,flying,0.104404256
+846,data/Alakazam/00000213.jpg,psychic,True,psychic,0.8082746,electric,0.21750566,flying,0.10649983
+847,data/Rapidash/ed646bab02f74fd192b3b45ec5e52fc6.jpg,fire,False,fire,0.3593164,flying,0.35210106,normal,0.19944263
+848,data/Jolteon/00000071.png,electric,True,electric,0.68768203,flying,0.16476746,bug,0.06688167
+849,data/Growlithe/00000061.jpg,fire,True,fire,0.79572886,flying,0.26025558,normal,0.083933815
+850,data/Raichu/00000043.png,electric,False,ground,0.21142547,normal,0.20314457,fire,0.1808554
+851,data/Haunter/00000235.jpg,poison,False,poison,0.2613266,psychic,0.19164363,water,0.18610303
+852,data/Jynx/00000048.png,psychic,True,psychic,0.55315286,bug,0.22639148,normal,0.16590251
+853,data/Growlithe/00000151.png,fire,False,fire,0.4055445,normal,0.32836094,flying,0.10777588
+854,data/Pikachu/00000023.png,electric,True,electric,0.7929446,flying,0.23126486,psychic,0.054326244
+855,data/Caterpie/00000116.png,bug,True,bug,0.88033354,psychic,0.1853058,flying,0.16637316
+856,data/Jolteon/5858ad1fd64c44228411411d4c25cecf.jpg,electric,False,electric,0.3773554,psychic,0.3178542,ground,0.17239419
+857,data/Poliwag/00000113.jpg,water,False,water,0.4692086,flying,0.3678786,poison,0.27772963
+858,data/Metapod/0ae588aca262462ba57aac0ee0245451.jpg,bug,True,bug,0.975963,flying,0.36171138,psychic,0.04020391
+859,data/Kakuna/00000049.jpg,"bug, poison",False,bug,0.35363832,psychic,0.35264266,poison,0.24390076
+860,data/Aerodactyl/7fb69a33c0ca4c458812233bb4084b01.jpg,flying,False,poison,0.404765,water,0.19418542,psychic,0.17031759
+861,data/Rapidash/b3f1f270a1d5412d99dfe6e8c8ba16e7.jpg,fire,False,fire,0.37714028,flying,0.2705287,electric,0.088202775
+862,data/Squirtle/00000088.jpg,water,False,poison,0.4688201,water,0.42220354,bug,0.36540627
+863,data/Venomoth/fc120ad10f584a9bbc9110f255ff7542.jpg,"bug, poison",False,poison,0.4589388,bug,0.33373562,normal,0.13502015
+864,data/MrMime/00000082.png,psychic,False,electric,0.23312351,water,0.23050766,psychic,0.19493817
+865,data/Jynx/491a9088ccab4fb686008bc28334eac3.jpg,psychic,True,psychic,0.9044738,bug,0.28410423,flying,0.1459667
+866,data/Starmie/00000157.png,"psychic, water",False,water,0.5536181,poison,0.55045545,psychic,0.48304197
+867,data/Flareon/8d39998fb82a4464b46cdab9c5e62bd0.jpg,fire,True,fire,0.90181226,flying,0.30707687,normal,0.115875565
+868,data/MrMime/00000042.png,psychic,False,psychic,0.48515442,water,0.2737174,fire,0.16353174
+869,data/Kadabra/6aae87e07e934d3884df65093601fb8c.jpg,psychic,False,ground,0.5696698,normal,0.1144177,flying,0.09059382
+870,data/Jynx/ca07cc6756ce46f38cb709c8c769ca48.jpg,psychic,True,psychic,0.95653546,normal,0.1468673,fire,0.05723535
+871,data/Venusaur/f7d8e44a9bda4373bc9366add84646e9.jpg,"grass, poison",False,grass,0.6438398,poison,0.27619928,bug,0.27180985
+872,data/Jolteon/00000130.png,electric,False,bug,0.67137563,poison,0.4422622,electric,0.42316353
+873,data/Ditto/00000107.png,normal,False,poison,0.47480646,normal,0.30108768,ground,0.1132693
+874,data/MrMime/00000088.jpg,psychic,False,water,0.5134291,normal,0.34417167,flying,0.32593462
+875,data/Metapod/a4c223df526c4e81a2f4bef8e89b6097.jpg,bug,True,bug,0.9873171,flying,0.3293478,poison,0.036426283
+876,data/Oddish/00000028.jpg,"grass, poison",True,grass,0.9982973,poison,0.9979875,flying,0.015333538
+877,data/Sandslash/02dd5d2f35704c0bba94f02b0449f76e.jpg,ground,True,ground,0.61029863,normal,0.35308185,flying,0.08758607
+878,data/Ditto/54e18c27fe0f4af1ab61faa41aa8c088.jpg,normal,False,psychic,0.357815,poison,0.35279614,normal,0.22536355
+879,data/Flareon/553b9a0bd85e41d49ea0d8ab50c0454f.jpg,fire,True,fire,0.6821558,flying,0.4075089,normal,0.2405554
+880,data/Eevee/00000098.jpg,normal,False,electric,0.39585876,flying,0.23208588,ground,0.20112675
+881,data/Articuno/6e24a9d251c44a80bf84849d2227d047.jpg,flying,False,water,0.6641168,flying,0.5538264,poison,0.06559106
+882,data/Voltorb/00000190.png,electric,False,water,0.22434986,ground,0.19201744,electric,0.18365492
+883,data/Graveler/00000048.png,ground,True,ground,0.62406236,water,0.1351436,electric,0.09292483
+884,data/Growlithe/71947c15d610474b982f8ae599fe2dad.jpg,fire,True,fire,0.5355529,normal,0.28160384,flying,0.1589284
+885,data/Magmar/00000119.png,fire,False,ground,0.20269728,electric,0.15344588,normal,0.116755545
+886,data/Koffing/00000026.jpg,poison,False,ground,0.3085883,bug,0.23510024,normal,0.17167221
+887,data/Dugtrio/ecd666e0de964bb590cf944389eefde1.jpg,ground,False,fire,0.4398484,ground,0.3654052,bug,0.20665629
+888,data/Exeggutor/ee12d2684975437e8f383c72e0ed354e.jpg,"grass, psychic",False,grass,0.81761676,poison,0.532852,water,0.15274563
+889,data/Raichu/00000076.png,electric,False,flying,0.19827294,bug,0.13694973,electric,0.12996131
+890,data/Exeggcute/00000045.png,"grass, psychic",False,psychic,0.72988236,bug,0.22953872,normal,0.20033911
+891,data/Charizard/00000064.jpg,"fire, flying",True,flying,0.7272309,fire,0.5499442,normal,0.22604948
+892,data/Tauros/00000032.png,normal,False,ground,0.6010065,normal,0.16330466,bug,0.1365496
+893,data/Lickitung/00000011.png,normal,True,normal,0.6546053,psychic,0.40663463,water,0.16686165
+894,data/Meowth/c9a2ee49dc6a428993d30ef8b0192c91.jpg,normal,False,normal,0.31159693,flying,0.09772859,ground,0.06780243
+895,data/Chansey/00000023.png,normal,True,normal,0.97180665,psychic,0.122896396,water,0.04413334
+896,data/Jolteon/00000048.jpg,electric,False,electric,0.32277158,ground,0.27480888,psychic,0.24629647
+897,data/Vileplume/ee2e4fb4c5b24458aea7359397dd7eed.jpg,"grass, poison",True,poison,0.96799624,grass,0.9672835,water,0.0309203
+898,data/Charmander/00000088.png,fire,True,fire,0.96839195,flying,0.2487985,normal,0.009537001
+899,data/Exeggutor/ddb950f3c74449e8923d1bd69b6e8248.jpg,"grass, psychic",True,psychic,0.84261906,grass,0.7529933,flying,0.11095388
+900,data/Slowpoke/00000151.jpg,"psychic, water",False,fire,0.48012957,water,0.24020924,psychic,0.13323994
+901,data/Zapdos/00000087.png,"electric, flying",True,electric,0.916909,flying,0.64938533,psychic,0.06288001
+902,data/Ivysaur/00000005.png,"grass, poison",True,poison,0.99343085,grass,0.99010277,normal,0.010203402
+903,data/Magneton/00000044.png,electric,False,electric,0.46098882,water,0.16984048,ground,0.1626218
+904,data/Magnemite/3a244f273bfe415a9d70c7967ad6c6ec.jpg,electric,True,electric,0.6426704,water,0.1594024,flying,0.15163656
+905,data/Oddish/00000110.png,"grass, poison",False,bug,0.55633825,flying,0.4325904,poison,0.19755147
+906,data/Growlithe/00000057.jpg,fire,False,normal,0.521174,flying,0.2345824,ground,0.18645766
+907,data/Kadabra/deaab18406cd47939188016442384216.jpg,psychic,True,psychic,0.90129733,bug,0.056134697,electric,0.05075479
+908,data/Ditto/00000102.jpg,normal,True,normal,0.92253244,psychic,0.116046906,water,0.06815643
+909,data/MrMime/00000032.png,psychic,True,psychic,0.58412695,water,0.45484737,normal,0.25149745
+910,data/Oddish/00000123.png,"grass, poison",True,poison,0.8415402,grass,0.7757916,bug,0.24374439
+911,data/Poliwrath/72e4cc6839d7489bbfaaada092334868.jpg,water,True,water,0.86612475,ground,0.07278784,bug,0.04295771
+912,data/Marowak/1c36dd161efd42d5a8e974707313399f.jpg,ground,False,water,0.33185646,ground,0.26994115,normal,0.05878678
+913,data/Metapod/00000113.png,bug,True,bug,0.7757841,flying,0.28649148,poison,0.26186886
+914,data/Hypno/24cf389e46f24c89af051d8b37655d40.jpg,psychic,True,psychic,0.7678729,ground,0.09352351,electric,0.08720028
+915,data/Metapod/00000104.jpg,bug,True,bug,0.9782774,flying,0.49699783,grass,0.061918773
+916,data/Lickitung/00000098.jpg,normal,True,normal,0.8032946,water,0.3132397,psychic,0.17060855
+917,data/Kangaskhan/00000037.jpg,normal,False,normal,0.40284806,ground,0.2993991,flying,0.14581548
+918,data/Vulpix/3179af9166fb4410bcf268792c6e439e.jpg,fire,True,fire,0.76897585,ground,0.15161982,bug,0.08500993
+919,data/Rhyhorn/00000047.png,ground,True,ground,0.7517139,normal,0.1508348,water,0.10661611
+920,data/Mewtwo/00000017.jpeg,psychic,False,flying,0.6088361,water,0.25624856,poison,0.18175276
+921,data/Zapdos/672219c9fb3d42cab8558d5c3e140ddf.jpg,"electric, flying",False,normal,0.16627532,ground,0.13262583,flying,0.10569813
+922,data/Voltorb/707c80fee6d54437ba646de28f049701.jpg,electric,True,electric,0.59761983,normal,0.3433518,grass,0.2893149
+923,data/Mewtwo/00000020.jpg,psychic,True,psychic,0.5586103,flying,0.24316792,bug,0.21883324
+924,data/Marowak/00000032.jpg,ground,True,ground,0.56992614,bug,0.18059342,normal,0.12037625
+925,data/Pikachu/00000009.png,electric,False,psychic,0.35054815,electric,0.16521405,water,0.13139725
+926,data/Pikachu/00000085.jpg,electric,True,electric,0.51932293,water,0.25576273,flying,0.1399185
+927,data/Arbok/a747f0c707cc46f982fc8165f2d8ce3d.jpg,poison,True,poison,0.9314648,flying,0.2665564,bug,0.16376927
+928,data/Raticate/00000123.jpg,normal,False,ground,0.8309971,normal,0.31231964,flying,0.09060997
+929,data/Geodude/6cb70a685e57434a838bc7846ffebafd.jpg,ground,False,ground,0.3644886,normal,0.17372313,water,0.077071756
+930,data/Ivysaur/00000086.png,"grass, poison",True,grass,0.99820614,poison,0.99750245,water,0.005097275
+931,data/Eevee/00000009.png,normal,False,normal,0.47584736,flying,0.36651012,electric,0.20107745
+932,data/Venomoth/376c4f7931704d8695947958989f1aea.jpg,"bug, poison",False,poison,0.4639861,normal,0.20941105,psychic,0.091913156
+933,data/Snorlax/dca50b68a5204f3985eb26a4922757ec.jpg,normal,True,normal,0.7538232,water,0.13468759,flying,0.04112977
+934,data/Rhydon/00000025.jpg,ground,True,ground,0.78247446,bug,0.09401345,water,0.07134854
+935,data/Kadabra/42be983d7e104070b047e9f808f2dbfa.jpg,psychic,True,psychic,0.6848767,ground,0.15915897,electric,0.1129253
+936,data/Squirtle/00000040.png,water,True,water,0.54296607,poison,0.22550291,grass,0.17862332
+937,data/Rhyhorn/9453ee7873b8479d9b0dff19ea247c19.jpg,ground,False,ground,0.47458562,water,0.15344645,electric,0.14356108
+938,data/Nidorina/96510273e6e94c71ba5f5d1dcc4afd8b.jpg,poison,False,water,0.4333068,flying,0.36569127,poison,0.17197314
+939,data/Pikachu/05da808f2caa4bf0a38449d4b172967a.jpg,electric,True,electric,0.74444157,poison,0.26851076,bug,0.25564003
+940,data/Starmie/94f587e99f93487abb206d1493eb8af6.jpg,"psychic, water",False,psychic,0.5252892,water,0.43004352,poison,0.2684957
+941,data/Spearow/00000108.gif,"flying, normal",False,normal,0.3876886,flying,0.32151088,psychic,0.10296001
+942,data/Aerodactyl/00000010.png,flying,True,flying,0.52121055,poison,0.36929417,psychic,0.17758861
+943,data/MrMime/00000085.png,psychic,True,psychic,0.7581054,water,0.45070633,flying,0.3929937
+944,data/Zapdos/00000042.jpg,"electric, flying",False,electric,0.6158759,flying,0.32004604,psychic,0.1628136
+945,data/Wigglytuff/00000006.png,normal,True,normal,0.97190064,psychic,0.20208837,water,0.062270503
+946,data/Geodude/00000023.png,ground,False,ground,0.2758067,electric,0.24582338,water,0.17532799
+947,data/Flareon/00000134.png,fire,False,psychic,0.38948673,water,0.28489593,fire,0.26376417
+948,data/Porygon/f145028ab8c24f729e76b3b62d015dff.jpg,normal,True,normal,0.6331751,poison,0.17419432,psychic,0.08802825
+949,data/Nidorina/00000008.png,poison,False,ground,0.3277287,poison,0.23863792,water,0.22469042
+950,data/Geodude/00000094.png,ground,False,normal,0.60476303,flying,0.3076363,ground,0.12617369
+951,data/Starmie/00000030.png,"psychic, water",False,psychic,0.40183645,poison,0.31310132,water,0.129051
+952,data/Scyther/503857768d4e4812b4efd5b1ce94d07d.jpg,"bug, flying",False,bug,0.52969116,psychic,0.4740629,flying,0.3508733
+953,data/Exeggutor/00000220.png,"grass, psychic",True,psychic,0.8753517,grass,0.5454123,normal,0.09264469
+954,data/Moltres/00000111.jpg,"fire, flying",False,electric,0.6969305,flying,0.6443949,normal,0.08477029
+955,data/Fearow/00000201.png,"flying, normal",False,normal,0.4718714,flying,0.4275295,fire,0.41150594
+956,data/Magmar/3118e64406824b65bd8e88764f12d12e.jpg,fire,True,fire,0.9213602,water,0.07077034,flying,0.042245306
+957,data/Mewtwo/00000088.jpg,psychic,False,poison,0.67035866,water,0.07646783,psychic,0.07515685
+958,data/Cloyster/24169e42d7834438aa1fbcf8616fcb08.jpg,water,False,psychic,0.3813576,bug,0.27756044,flying,0.1915399
+959,data/Voltorb/00000228.png,electric,True,electric,0.9802347,fire,0.065222934,water,0.033987276
+960,data/Arcanine/00000230.jpg,fire,False,normal,0.6230547,flying,0.2990612,water,0.15231337
+961,data/Omanyte/00000018.png,water,True,water,0.5954549,ground,0.3448577,normal,0.246057
+962,data/Tangela/2ad4f5176e1a4d17b8b8b7a7a99e9d7f.jpg,grass,False,poison,0.5591032,flying,0.2901535,grass,0.19295435
+963,data/Tauros/00000133.png,normal,False,flying,0.46305674,fire,0.3735818,normal,0.17557226
+964,data/Vulpix/07dd012d321d4bf6a32e1dda9a49dfc9.jpg,fire,False,flying,0.4991042,normal,0.37702575,fire,0.1705794
+965,data/Arbok/00000014.png,poison,True,poison,0.6067545,normal,0.3447657,ground,0.16908942
+966,data/Venonat/00000045.png,"bug, poison",True,poison,0.8819761,bug,0.5783225,flying,0.060036555
+967,data/Growlithe/a867e087d0374469a920e90106222acf.jpg,fire,True,fire,0.84684414,flying,0.15478139,normal,0.13617274
+968,data/Rhyhorn/00000096.gif,ground,False,water,0.3965382,bug,0.2658533,flying,0.16090111
+969,data/Rapidash/00000123.png,fire,True,fire,0.9854291,flying,0.094854,water,0.035096467
+970,data/Electabuzz/00000068.jpg,electric,True,electric,0.8195636,flying,0.20841132,psychic,0.08821684
+971,data/Ekans/00000008.png,poison,True,poison,0.82010746,normal,0.20511162,bug,0.10497791
+972,data/Pidgeotto/00000103.png,"flying, normal",False,fire,0.6459262,flying,0.290457,normal,0.23450556
+973,data/Exeggutor/72bc245762e34d7b8c1ae4b72b175cac.jpg,"grass, psychic",True,psychic,0.8462669,grass,0.6850011,bug,0.2086756
+974,data/Weezing/00000040.png,poison,False,ground,0.21787028,poison,0.16092882,bug,0.12376758
+975,data/Porygon/00000242.jpg,normal,False,poison,0.76447725,grass,0.21184431,flying,0.13407637
+976,data/Porygon/00000191.png,normal,False,grass,0.3886701,poison,0.31193054,normal,0.23610118
+977,data/Clefairy/00000067.png,normal,True,normal,0.74601305,fire,0.32853603,psychic,0.22254953
+978,data/Omanyte/00000053.jpg,water,True,water,0.90937096,normal,0.11558408,flying,0.10084063
+979,data/Grimer/4accc64f2ed2485bafb00a4b06a93077.jpg,poison,False,normal,0.63566154,poison,0.3690373,bug,0.12250925
+980,data/Golduck/00000004.png,water,False,water,0.48307237,poison,0.31467304,flying,0.1011772
+981,data/Ekans/00000016.png,poison,True,poison,0.572707,psychic,0.39837217,water,0.07437128
+982,data/Pidgey/00000051.jpg,"flying, normal",False,flying,0.41586003,electric,0.34842718,normal,0.27740097
+983,data/Pikachu/00000185.jpg,electric,False,electric,0.37985533,flying,0.1806325,psychic,0.09668951
+984,data/Zubat/00000006.jpg,"flying, poison",False,flying,0.84572804,water,0.48165378,poison,0.40962124
+985,data/Farfetchd/00000075.png,"flying, normal",False,ground,0.32448882,normal,0.23523405,flying,0.1999451
+986,data/Farfetchd/862e08ed54a349aca793832e304a9108.jpg,"flying, normal",False,psychic,0.3581279,normal,0.35750353,bug,0.2641805
+987,data/Scyther/00000108.jpg,"bug, flying",False,bug,0.66357875,flying,0.35743257,ground,0.2514157
+988,data/Vulpix/00000148.png,fire,False,electric,0.56385237,flying,0.21304668,psychic,0.16454464
+989,data/Pikachu/00000047.jpg,electric,False,psychic,0.3625271,electric,0.18817197,flying,0.11907633
+990,data/Articuno/00000229.png,flying,True,flying,0.63804793,water,0.40022126,poison,0.16371998
+991,data/Koffing/00000013.gif,poison,False,poison,0.5539792,psychic,0.5007874,bug,0.21034351
+992,data/Rhydon/00000033.png,ground,False,water,0.48062384,ground,0.23877497,electric,0.07078817
+993,data/Jynx/5f33b62526d5479c99a4dc5c2762ad6f.jpg,psychic,True,psychic,0.8258412,water,0.12748282,normal,0.064254925
+994,data/Gengar/00000040.png,poison,True,poison,0.85771614,water,0.08187569,flying,0.048683643
+995,data/Jolteon/421135c1cc6a434e9dc7e4620f22dee0.jpg,electric,True,electric,0.8953901,flying,0.2969979,psychic,0.09272419
+996,data/Drowzee/482b83d2aa794dc6926f120760e278f7.jpg,psychic,True,psychic,0.6146859,ground,0.14788839,flying,0.121541224
+997,data/Voltorb/bf7624ed612f44b38a7c96cd1a42d72b.jpg,electric,True,electric,0.8546235,grass,0.19030954,poison,0.08615115
+998,data/Dragonite/00000000.jpg,flying,True,flying,0.6954366,normal,0.47012398,ground,0.07788526
+999,data/Gyarados/00000153.jpg,"flying, water",False,flying,0.31947845,water,0.23617525,psychic,0.14159061
+1000,data/Pidgey/00000068.png,"flying, normal",False,fire,0.7375739,flying,0.3561736,normal,0.23186737
+1001,data/Doduo/00000020.png,"flying, normal",False,fire,0.4277819,water,0.38577488,flying,0.31222698
+1002,data/Rhyhorn/a35db95fe2d04a42bb848f25caf9e7a3.jpg,ground,True,ground,0.52682084,water,0.23122086,electric,0.096322946
+1003,data/Golbat/00000051.jpg,"flying, poison",False,flying,0.907858,poison,0.31133267,water,0.13352823
+1004,data/Articuno/00000010.jpg,flying,True,flying,0.50798124,water,0.4437128,poison,0.058397014
+1005,data/Venonat/00000021.png,"bug, poison",True,poison,0.9086319,bug,0.79270214,flying,0.23281439
+1006,data/Moltres/00000030.jpg,"fire, flying",False,fire,0.9413692,flying,0.24357189,water,0.06323389
+1007,data/Weezing/00000008.png,poison,True,poison,0.6262715,ground,0.19150472,psychic,0.18161649
+1008,data/Gengar/3740a4ae09164232813d3d575d90bd1a.jpg,poison,False,flying,0.31801596,poison,0.31775865,water,0.22049844
+1009,data/Meowth/00000117.png,normal,True,normal,0.5173981,flying,0.18026552,ground,0.15811512
+1010,data/Tangela/00000077.jpg,grass,False,grass,0.99859667,poison,0.73359096,ground,0.039675806
+1011,data/Cubone/00000036.jpg,ground,False,ground,0.27741507,normal,0.15713775,fire,0.12701754
+1012,data/Tauros/3f316a5cf4624fa9b788c1539bb95d61.jpg,normal,False,normal,0.47211993,flying,0.2860067,ground,0.26069245
+1013,data/Porygon/00000065.png,normal,False,poison,0.14371014,psychic,0.12725098,normal,0.12406149
+1014,data/Dewgong/34a5f5b040a649c48304905edec5ae9b.jpg,water,True,water,0.61259466,flying,0.26047674,poison,0.059229493
+1015,data/Bulbasaur/00000012.png,"grass, poison",True,poison,0.9958087,grass,0.98185277,bug,0.034975
+1016,data/Magnemite/00000017.png,electric,False,water,0.36603785,flying,0.33114228,bug,0.22823113
+1017,data/Pikachu/00000100.png,electric,True,electric,0.67961043,psychic,0.22191228,flying,0.101715505
+1018,data/Tauros/00000149.png,normal,False,water,0.49878556,electric,0.12292875,fire,0.11443085
+1019,data/Jolteon/96ec94e0e05f4e73adaf2b2ff68cb427.jpg,electric,False,psychic,0.54227144,electric,0.28189453,bug,0.24256507
+1020,data/Fearow/000ba47c18ba4cdc81122e8b284ef1f2.jpg,"flying, normal",False,flying,0.5333336,bug,0.43632382,normal,0.43052268
+1021,data/Dugtrio/00000104.png,ground,False,normal,0.31853628,fire,0.19224261,flying,0.16870241
+1022,data/Diglett/00000015.png,ground,False,fire,0.5482985,ground,0.30450585,bug,0.28802302
+1023,data/Jigglypuff/00000083.png,normal,True,normal,0.971032,psychic,0.09865286,grass,0.023140568
+1024,data/Kakuna/475b863d1ba64e73a7130181ad0500af.jpg,"bug, poison",False,normal,0.28527844,ground,0.19604057,bug,0.16374654
+1025,data/Magikarp/00000014.jpg,water,False,water,0.3231635,fire,0.3118413,flying,0.17912292
+1026,data/Fearow/383d67ea6c164d6ea44d7c8be153b016.jpg,"flying, normal",False,grass,0.27547398,fire,0.2481924,poison,0.22800924
+1027,data/Charmander/3.png,fire,True,fire,0.8347595,flying,0.24923308,poison,0.049931265
+1028,data/Exeggcute/aecd653012344983b1d4864483f06402.jpg,"grass, psychic",False,normal,0.97405475,psychic,0.1783761,grass,0.09666843
+1029,data/Pikachu/1b88de58ecef49a8a33bd46dc6791915.jpg,electric,True,electric,0.7513284,flying,0.14880842,psychic,0.06917925
+1030,data/Poliwhirl/8bdfea3da0a5432a8b44a75e372c9041.jpg,water,True,water,0.99529046,flying,0.031982973,grass,0.025406113
+1031,data/Kangaskhan/00000007.png,normal,False,normal,0.49355406,ground,0.24401906,flying,0.12609315
+1032,data/Magneton/00000047.jpg,electric,False,water,0.73151577,flying,0.220678,electric,0.084585994
+1033,data/Butterfree/00000159.jpg,"bug, flying",True,bug,0.9135813,flying,0.9001928,poison,0.15930767
+1034,data/Lickitung/4498f77ffbec4fa4b5b321fbf2c48c8c.jpg,normal,True,normal,0.9107961,water,0.11590934,flying,0.044816133
+1035,data/Wigglytuff/e16174dd747741a19145cb90ed3e1152.jpg,normal,True,normal,0.9552306,psychic,0.13978769,grass,0.05038206
+1036,data/Vaporeon/00000031.png,water,False,water,0.8105169,flying,0.51648605,bug,0.03859714
+1037,data/Koffing/5dcea0da596a42a58f8c44a0506f997c.jpg,poison,False,poison,0.6389056,normal,0.5261699,ground,0.036899723
+1038,data/Graveler/00000193.jpg,ground,False,electric,0.426675,ground,0.3577323,water,0.10080497
+1039,data/Pinsir/1c901ab37c7d4119a2dbe334d7456a9e.jpg,bug,False,ground,0.31434757,bug,0.25823346,normal,0.15128173
+1040,data/Tangela/c50fa53f3ca84c1f92164ece1e2d96ca.jpg,grass,False,grass,0.46138057,flying,0.39365605,water,0.15345277
+1041,data/Arcanine/00000123.jpg,fire,True,fire,0.8569296,normal,0.21686041,flying,0.14612773
+1042,data/Sandshrew/00000003.png,ground,False,psychic,0.46862757,ground,0.32392782,electric,0.06622676
+1043,data/Snorlax/00000098.jpg,normal,False,water,0.83293873,normal,0.21907327,flying,0.19889675
+1044,data/Caterpie/00000051.png,bug,True,bug,0.94009817,grass,0.08676894,flying,0.039427575
+1045,data/Ponyta/00000039.gif,fire,True,fire,0.97553855,flying,0.117620856,normal,0.03412463
+1046,data/Lapras/00000027.png,water,False,flying,0.5386539,water,0.42871508,psychic,0.13509485
+1047,data/Raichu/00000119.jpg,electric,False,flying,0.5174115,electric,0.29914272,poison,0.12243446
+1048,data/Venonat/20ef4b5ea2f64289954a4ece4a3ac00f.jpg,"bug, poison",False,poison,0.6843245,bug,0.66712993,flying,0.5236369
+1049,data/Fearow/00000011.png,"flying, normal",False,water,0.24864225,ground,0.17657684,fire,0.15953049
+1050,data/Snorlax/1efc6eba3e544be284add043a0e6a6d9.jpg,normal,True,normal,0.59244865,water,0.16781496,flying,0.14792645
+1051,data/Hypno/8cbd482b7cb94df0bab0f748662b6960.jpg,psychic,True,psychic,0.95092267,water,0.16598943,poison,0.12678713
+1052,data/Pidgeotto/00000023.png,"flying, normal",True,flying,0.61124957,normal,0.61087084,electric,0.17890073
+1053,data/Growlithe/00000010.jpg,fire,True,fire,0.7807851,normal,0.088978395,flying,0.06797119
+1054,data/Gastly/854eacf183844a538ae0023347c0e1a2.jpg,poison,False,psychic,0.63933927,poison,0.14241235,bug,0.09999466
+1055,data/Farfetchd/28d218fd4cac41a69ceff51a0af6ad39.jpg,"flying, normal",False,normal,0.392435,psychic,0.2821049,bug,0.19464707
+1056,data/Scyther/00000084.png,"bug, flying",True,bug,0.9891466,flying,0.7542365,psychic,0.059134003
+1057,data/Pidgeotto/00000142.jpg,"flying, normal",False,normal,0.5402581,flying,0.4048492,ground,0.12022881
+1058,data/Eevee/080753ed8ca845d39c88e7ad53cc4fea.jpg,normal,False,normal,0.74476886,flying,0.5541427,ground,0.13590729
+1059,data/Jigglypuff/00000173.jpg,normal,True,normal,0.6374638,psychic,0.19763649,water,0.07680374
+1060,data/Exeggcute/00000115.jpg,"grass, psychic",False,fire,0.21406665,normal,0.13176388,electric,0.12186311
+1061,data/Butterfree/00000079.jpg,"bug, flying",True,bug,0.9281728,flying,0.8715998,poison,0.07517364
+1062,data/Nidorino/00000002.png,poison,True,poison,0.8544152,ground,0.19804776,normal,0.06699123
+1063,data/Drowzee/00000021.png,psychic,True,psychic,0.5181721,ground,0.18759096,flying,0.15377864
+1064,data/Pidgey/00000205.gif,"flying, normal",True,normal,0.9219551,flying,0.88241017,fire,0.066740826
+1065,data/Raticate/00000081.gif,normal,True,normal,0.5005467,flying,0.39589176,ground,0.21850148
+1066,data/Pidgeot/bc7180154d1849b79902385193d8eea9.jpg,"flying, normal",False,flying,0.46142852,fire,0.36252764,normal,0.33256513
+1067,data/Magneton/00000034.jpg,electric,False,water,0.77672577,flying,0.2128567,bug,0.021182954
+1068,data/Sandslash/8573304fd6dc4810b1cdf19451339074.jpg,ground,False,psychic,0.2351772,bug,0.2232545,ground,0.19348438
+1069,data/Tangela/e4f8bfb648144f2ca42af90859db44e4.jpg,grass,False,flying,0.41337925,water,0.24883635,poison,0.15063746
+1070,data/Kangaskhan/8174fee44a07451c815be5978bf9363d.jpg,normal,False,bug,0.3011937,ground,0.28731462,psychic,0.17785588
+1071,data/Rhydon/00000001.gif,ground,False,water,0.5915617,flying,0.27775577,bug,0.09355436
+1072,data/Diglett/00000116.jpg,ground,False,fire,0.5642827,ground,0.2917737,normal,0.22341216
+1073,data/Spearow/00000008.png,"flying, normal",True,normal,0.7390143,flying,0.70016986,water,0.11503113
+1074,data/Jigglypuff/00000036.png,normal,True,normal,0.9722439,psychic,0.08898296,water,0.060114007
+1075,data/Ponyta/00000017.png,fire,True,fire,0.92357606,flying,0.18992566,normal,0.12089137
+1076,data/Rapidash/00000070.jpg,fire,True,fire,0.8243799,flying,0.13565545,water,0.114475206
+1077,data/Ninetales/00000045.png,fire,True,fire,0.8593439,normal,0.11941048,flying,0.08404283
+1078,data/Dugtrio/00000038.gif,ground,True,ground,0.74735826,normal,0.291503,bug,0.19783439
+1079,data/Omanyte/00000005.png,water,True,water,0.917742,normal,0.07759718,ground,0.051099055
+1080,data/Rapidash/00000046.jpg,fire,True,fire,0.9953257,flying,0.04998964,water,0.033549696
+1081,data/Sandslash/00000051.png,ground,True,ground,0.6505489,normal,0.2802866,electric,0.068815336
+1082,data/Scyther/122678e00f774a0fb009ac2223efc49f.jpg,"bug, flying",False,bug,0.9340118,flying,0.3997957,normal,0.045137577
+1083,data/Weezing/4e4f4139b76e4a1c805df7442bbef2b0.jpg,poison,True,poison,0.7034051,bug,0.3624623,ground,0.18562524
+1084,data/Magnemite/294799bee806437b99ef51a687f29ced.jpg,electric,False,ground,0.6341457,electric,0.48960802,water,0.12390751
+1085,data/Snorlax/e584d42b940549c2b00d954057436b62.jpg,normal,False,ground,0.7689097,normal,0.26733994,water,0.062464416
+1086,data/Mewtwo/00000206.png,psychic,True,psychic,0.60127366,flying,0.34031716,poison,0.20790432
+1087,data/Jigglypuff/00000209.gif,normal,False,normal,0.48858318,psychic,0.4758135,water,0.26998496
+1088,data/Golbat/00000099.png,"flying, poison",True,flying,0.99329424,poison,0.99012583,ground,0.021640057
+1089,data/Dugtrio/00000003.jpg,ground,True,ground,0.7831342,normal,0.17235681,flying,0.11030605
+1090,data/Pidgey/00000057.png,"flying, normal",True,normal,0.9200344,flying,0.8775573,fire,0.065015145
+1091,data/Cubone/00000031.png,ground,False,ground,0.37235942,normal,0.2733263,bug,0.21993576
+1092,data/Rapidash/00000146.png,fire,True,fire,0.9898999,flying,0.0630157,water,0.056811977
+1093,data/Wartortle/00000023.png,water,True,water,0.82799554,flying,0.09661147,bug,0.03591487
+1094,data/Exeggcute/00000057.png,"grass, psychic",False,psychic,0.729039,normal,0.17547698,grass,0.17295343
+1095,data/Venonat/00000000.png,"bug, poison",False,poison,0.8445539,bug,0.3721824,flying,0.23523445
+1096,data/Scyther/00000156.gif,"bug, flying",True,bug,0.9792735,flying,0.65859216,grass,0.08506329
+1097,data/Charmander/00000126.jpg,fire,True,fire,0.84722686,ground,0.11515772,flying,0.08517052
+1098,data/Zubat/00000056.png,"flying, poison",True,flying,0.9883832,poison,0.61807966,bug,0.17739934
+1099,data/Parasect/5eda0fe5659849e5b4455bd32fd3e5ed.jpg,"bug, grass",True,grass,0.8232778,bug,0.7061991,poison,0.24233127
+1100,data/Sandslash/5c8d0feb0f3c4629b1a4a240a9601bc5.jpg,ground,False,fire,0.6911588,water,0.092930034,flying,0.07150421
+1101,data/Venonat/00000093.png,"bug, poison",False,poison,0.4677231,bug,0.28003532,psychic,0.2381928
+1102,data/Fearow/2852c37d32b24dc6b68933f8648445d7.jpg,"flying, normal",True,flying,0.6532117,normal,0.5701652,bug,0.31197768
+1103,data/Rapidash/6e1ccd2524a04778bc745d2a1b6369b8.jpg,fire,True,fire,0.88533795,flying,0.15191895,bug,0.053640317
+1104,data/Nidoqueen/00000017.gif,"ground, poison",False,water,0.6442374,ground,0.14404476,flying,0.11887342
+1105,data/Voltorb/00000186.jpg,electric,True,electric,0.9290654,water,0.22474502,psychic,0.045705948
+1106,data/Spearow/00000039.jpg,"flying, normal",True,flying,0.6717172,normal,0.50750494,water,0.32526997
+1107,data/Voltorb/00000124.png,electric,False,electric,0.26644865,water,0.22207293,bug,0.15751976
+1108,data/Raichu/00000095.png,electric,False,fire,0.39044258,normal,0.15541525,ground,0.1451439
+1109,data/Mew/b83f2acfe79a4bca89259f633482759d.jpg,psychic,False,psychic,0.38599947,flying,0.26975745,poison,0.12806915
+1110,data/Jigglypuff/51e2498ccba64ddcabb2e100684bf459.jpg,normal,True,normal,0.93652266,water,0.3607135,psychic,0.12654133
+1111,data/Butterfree/00000180.png,"bug, flying",False,bug,0.5293126,flying,0.48249045,electric,0.32826582
+1112,data/Exeggcute/00000175.png,"grass, psychic",False,normal,0.6501984,psychic,0.25419208,grass,0.09737855
+1113,data/Magmar/00000116.gif,fire,True,fire,0.93138194,water,0.09764991,flying,0.08608891
+1114,data/Sandshrew/00000042.jpg,ground,False,bug,0.32637796,water,0.3189271,poison,0.31722304
+1115,data/Articuno/22cd66736e594cf497303e570c8a5e41.jpg,flying,False,water,0.89366573,flying,0.3019687,poison,0.07300122
+1116,data/Growlithe/00000048.jpg,fire,True,fire,0.937042,flying,0.38688564,electric,0.033879142
+1117,data/Flareon/00000199.png,fire,True,fire,0.7630677,flying,0.32995614,normal,0.2086785
+1118,data/Kabutops/00000027.jpg,water,False,water,0.24435556,flying,0.22891843,electric,0.13205889
+1119,data/Drowzee/00000159.png,psychic,False,psychic,0.26076165,flying,0.24399304,bug,0.21988796
+1120,data/Bulbasaur/24e2594b0dc14e5895d894b2e636f150.jpg,"grass, poison",True,poison,0.9840179,grass,0.9812219,bug,0.020734362
+1121,data/Nidorino/00000081.png,poison,False,flying,0.6310696,grass,0.17813128,poison,0.1471192
+1122,data/Sandslash/00000012.png,ground,False,ground,0.49790823,normal,0.15755685,electric,0.1128389
+1123,data/Weedle/00000022.png,"bug, poison",False,psychic,0.7301505,poison,0.2282791,bug,0.14291073
+1124,data/Ivysaur/2f9ea94f14fa44b3b52f2b53f85d9a0f.jpg,"grass, poison",True,grass,0.9983895,poison,0.99666536,normal,0.02332868
+1125,data/Oddish/8eb7a77a02d9463a8396209d917e5fa1.jpg,"grass, poison",False,bug,0.48811665,poison,0.35187835,psychic,0.1892647
+1126,data/Mew/3f0ab82f99c940f3a76eb8d9f476b9f6.jpg,psychic,False,poison,0.37049875,normal,0.29150078,psychic,0.18026064
+1127,data/Vulpix/00000007.png,fire,True,fire,0.8070083,water,0.13541454,flying,0.11402806
+1128,data/Raichu/00000196.jpg,electric,True,electric,0.64163774,flying,0.3954047,poison,0.098872975
+1129,data/Snorlax/00000068.png,normal,False,water,0.86644006,flying,0.23364915,poison,0.054454032
+1130,data/Clefairy/00000183.jpg,normal,True,normal,0.7985858,water,0.07332089,poison,0.06334769
+1131,data/Psyduck/00000095.png,water,False,normal,0.36225024,poison,0.29381827,ground,0.22943379
+1132,data/Tauros/00000020.png,normal,False,bug,0.17168343,psychic,0.16963081,electric,0.14988221
+1133,data/Butterfree/00000104.jpg,"bug, flying",True,bug,0.8597143,flying,0.85553855,poison,0.08838944
+1134,data/Arbok/00000112.jpg,poison,True,poison,0.8636688,flying,0.3168149,water,0.08027282
+1135,data/Poliwhirl/ef4d09c9e96c4fc1b2bdb1b427a92820.jpg,water,True,water,0.80922675,flying,0.20862134,bug,0.064545415
+1136,data/Electabuzz/00000195.jpg,electric,True,electric,0.6442579,psychic,0.36418048,flying,0.111316964
+1137,data/Poliwag/00000064.png,water,False,flying,0.7279497,poison,0.45568287,bug,0.1206473
+1138,data/Oddish/00000069.png,"grass, poison",True,poison,0.99605596,grass,0.99288154,flying,0.035106022
+1139,data/Koffing/00000078.jpg,poison,False,ground,0.33617914,poison,0.30032942,water,0.29198614
+1140,data/Snorlax/c45d2096d90b4b89b782763471f6196b.jpg,normal,False,psychic,0.3537213,bug,0.295357,flying,0.26423204
+1141,data/Spearow/b09c85219d5a4d97bafb18d13cd495c0.jpg,"flying, normal",False,water,0.29001126,normal,0.27400148,flying,0.21401204
+1142,data/Drowzee/61c53caf1acf4dc3b1417ad19bfd2cdb.jpg,psychic,True,psychic,0.90159655,ground,0.1309419,bug,0.08487785
+1143,data/Pinsir/00000008.jpg,bug,False,ground,0.3960787,bug,0.25709242,normal,0.16731091
+1144,data/Diglett/00000156.jpg,ground,True,ground,0.77068865,flying,0.27046946,normal,0.23642892
+1145,data/Pinsir/00000127.png,bug,False,psychic,0.22663635,water,0.20203365,electric,0.1260552
+1146,data/Marowak/aab6aebe197448bea6431d8f2a6e8fa3.jpg,ground,False,normal,0.6054202,ground,0.40138024,flying,0.2748946
+1147,data/Sandslash/207132dfc6ce470cb8d4fdc6669e7da6.jpg,ground,True,ground,0.57191986,normal,0.14791358,water,0.086313665
+1148,data/Slowpoke/cf2a5c3aeb4d4bfeacec2c9647835749.jpg,"psychic, water",False,fire,0.46445292,water,0.34783536,normal,0.30263087
+1149,data/Charizard/00000087.jpg,"fire, flying",True,fire,0.7735654,flying,0.53265065,water,0.12934622
+1150,data/Metapod/28c7fe106df244df8f8c1bdb618e28fc.jpg,bug,True,bug,0.98074615,flying,0.36331728,psychic,0.042929165
+1151,data/Venonat/13b10a2e1db24d5599cceb113761dc3a.jpg,"bug, poison",False,poison,0.66731685,bug,0.11793616,water,0.09011254
+1152,data/Rapidash/dc30cf658b204f719e0882c5f07a7813.jpg,fire,True,fire,0.606198,flying,0.3378742,normal,0.11475414
+1153,data/Jigglypuff/00000003.png,normal,True,normal,0.97333205,psychic,0.1286443,grass,0.016989578
+1154,data/Butterfree/00000012.jpg,"bug, flying",True,flying,0.86709416,bug,0.77847064,water,0.33889866
+1155,data/Pidgeot/0062468234d74584ae2603c7b2159830.jpg,"flying, normal",False,flying,0.41845766,fire,0.3121698,normal,0.30251253
+1156,data/Arbok/ad5202b436824705b1ed0675eaa39454.jpg,poison,True,poison,0.84694475,water,0.09817888,ground,0.047400467
+1157,data/Cubone/b5c476ba2b8d4e25b4ddf03d82e8fb79.jpg,ground,False,normal,0.27429712,electric,0.17018473,flying,0.15831548
+1158,data/Vulpix/00000040.png,fire,True,fire,0.9019025,flying,0.101236984,water,0.07649638
+1159,data/Kadabra/02efe8946e9749a1871d4196a24152d5.jpg,psychic,True,psychic,0.85480374,electric,0.07300039,ground,0.06099689
+1160,data/MrMime/00000115.png,psychic,True,psychic,0.7144777,water,0.2777109,flying,0.15274267
+1161,data/Magmar/00000006.jpg,fire,True,fire,0.6385497,flying,0.24016443,bug,0.09445971
+1162,data/Sandslash/ff69c520479644718c30820f04ca23e4.jpg,ground,False,normal,0.42397422,ground,0.20975417,flying,0.17573191
+1163,data/Clefable/3c217094ee404ccd8a85d6c66c8e1114.jpg,normal,True,normal,0.8414486,water,0.076318234,psychic,0.038887054
+1164,data/Pinsir/00000010.gif,bug,True,bug,0.7102554,flying,0.3259359,psychic,0.28494933
+1165,data/Caterpie/912f544ed21d44989db048c52016114b.jpg,bug,True,bug,0.98859257,flying,0.059599843,grass,0.03235337
+1166,data/Jynx/c634b16a5e2041d584622b060c093fa8.jpg,psychic,True,psychic,0.8963003,normal,0.22872514,flying,0.12309501
+1167,data/Butterfree/00000053.png,"bug, flying",False,flying,0.60671175,bug,0.45053118,water,0.24512772
+1168,data/Omastar/00000007.png,water,True,water,0.9715391,flying,0.17754559,normal,0.028259989
+1169,data/Charizard/34d01002bbaa4de6a63dff03a1183be7.jpg,"fire, flying",False,flying,0.4491455,normal,0.25826368,psychic,0.22010566
+1170,data/Arcanine/00000167.gif,fire,True,fire,0.6039229,flying,0.12769073,electric,0.08834387
+1171,data/Metapod/c846525bfa5a469da3961220c02cc576.jpg,bug,True,bug,0.9984191,flying,0.43286866,poison,0.009421295
+1172,data/Jolteon/c0036326f75b4338b1c6664a61aaf820.jpg,electric,True,electric,0.5406506,psychic,0.30334184,flying,0.08862305
+1173,data/Pidgeotto/00000019.png,"flying, normal",True,flying,0.888003,normal,0.83771926,fire,0.24096087
+1174,data/Lapras/00000054.png,water,True,water,0.721428,bug,0.13363133,flying,0.116382
+1175,data/Pikachu/00000221.jpg,electric,True,electric,0.5445473,flying,0.21613884,psychic,0.20418957
+1176,data/Cubone/7802360f140b4659bc985b4d996bf580.jpg,ground,False,fire,0.24568357,ground,0.24095646,flying,0.2142342
+1177,data/Venomoth/00000079.gif,"bug, poison",False,bug,0.4675244,flying,0.44921383,poison,0.4278249
+1178,data/Jolteon/00000156.png,electric,False,psychic,0.7226278,electric,0.20557936,flying,0.07287047
+1179,data/Vulpix/00000037.png,fire,False,fire,0.4538844,water,0.20586935,bug,0.18048906
+1180,data/Zapdos/00000102.png,"electric, flying",True,electric,0.916909,flying,0.64938533,psychic,0.06288001
+1181,data/Graveler/04e6f1285a09433f8a191a5f0b22ec7f.jpg,ground,True,ground,0.6416914,electric,0.3191806,water,0.049416933
+1182,data/Horsea/00000108.jpg,water,True,water,0.76397854,flying,0.22108361,poison,0.060933344
+1183,data/Ivysaur/00000077.png,"grass, poison",True,grass,0.9873148,poison,0.9872482,flying,0.02039253
+1184,data/Ditto/00000055.png,normal,True,normal,0.9700954,water,0.094433784,psychic,0.0651744
+1185,data/Charmander/00000001.png,fire,True,fire,0.94880444,flying,0.29061505,normal,0.017374735
+1186,data/Lapras/79ca627c9c82487399eb139344b9fad6.jpg,water,True,water,0.6555669,flying,0.15920538,ground,0.14398317
+1187,data/Doduo/00000061.png,"flying, normal",True,normal,0.64017224,flying,0.5779039,water,0.06966748
+1188,data/Moltres/00000001.jpg,"fire, flying",False,fire,0.7680366,flying,0.37957782,water,0.26035467
+1189,data/Bulbasaur/00000157.png,"grass, poison",True,poison,0.9885811,grass,0.98335177,water,0.022143846
+1190,data/Haunter/00000022.png,poison,False,flying,0.7320853,poison,0.63281965,grass,0.21789546
+1191,data/Exeggutor/57d040767a7042189902fd1a2352f824.jpg,"grass, psychic",True,psychic,0.9755182,grass,0.95451367,flying,0.1117506
+1192,data/Oddish/ee7860e02b5e4147b9644e422a6b52dc.jpg,"grass, poison",True,grass,0.85964185,poison,0.8195112,flying,0.18641306
+1193,data/Butterfree/00000038.jpg,"bug, flying",True,flying,0.90621316,bug,0.8768593,water,0.17465733
+1194,data/Caterpie/f73eac0dab71470287623f49f9a53887.jpg,bug,True,bug,0.9395813,poison,0.28526488,flying,0.033072885
+1195,data/Koffing/00000075.jpg,poison,True,poison,0.63005674,bug,0.40997487,flying,0.30728292
+1196,data/Cloyster/00000217.png,water,True,water,0.59475446,ground,0.2515302,bug,0.16870852
+1197,data/Pikachu/00000145.JPG,electric,False,psychic,0.390846,electric,0.20467637,water,0.086896665
+1198,data/Butterfree/2cd25915fa56427b8c41275447f22598.jpg,"bug, flying",True,bug,0.9156086,flying,0.8626047,poison,0.13352056
+1199,data/MrMime/00000008.png,psychic,False,water,0.6457754,psychic,0.5033848,flying,0.20876777
